@@ -1,0 +1,3 @@
+print('tkinter' ,'pd' , 'fastapi')
+
+
