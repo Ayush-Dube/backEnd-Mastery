@@ -1,0 +1,1 @@
+print("Hello using ni test2.py")

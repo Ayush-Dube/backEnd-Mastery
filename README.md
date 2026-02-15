@@ -52,3 +52,62 @@ PS D:\backEND_ALL\using_Python\project_101a>
 
 ![alt text](image.png)
 
+
+
+## Issue 1
+
+PYTHON ERROR: Non-UTF-8 code starting with '\xff' (PowerShell Issue)
+
+PROBLEM:
+When running a Python file, error appears:
+
+SyntaxError: Non-UTF-8 code starting with '\xff'
+
+CAUSE:
+File was created using PowerShell command:
+
+echo "" > test.py
+
+PowerShell '>' redirect saves files in UTF-16 LE encoding by default.
+Python 3 expects source files in UTF-8 encoding.
+UTF-16 files start with bytes FF FE (\xff), causing the error.
+
+WHY test2.py WORKED:
+File created using:
+
+ni test2.py
+
+This creates a normal empty file (UTF-8 compatible), so Python runs it.
+
+SOLUTIONS:
+
+1. BEST — Create Python file properly in PowerShell:
+
+ni script.py
+
+### or
+
+New-Item script.py
+
+2. Create file with UTF-8 encoding explicitly:
+
+Set-Content script.py "" -Encoding utf8
+
+3. Fix an existing broken file:
+
+Get-Content test.py | Set-Content test.py -Encoding utf8
+
+4. In VS Code:
+   Bottom-right → Click Encoding → Save with Encoding → UTF-8
+
+RULE TO REMEMBER:
+
+PowerShell:
+
+> redirect  → UTF-16 ❌ (causes Python error)
+
+ni command → UTF-8 / empty ✅ (safe)
+
+SUMMARY:
+Never use `echo "" > file.py` in PowerShell for Python files.
+Use `ni file.py` or save as UTF-8 instead.

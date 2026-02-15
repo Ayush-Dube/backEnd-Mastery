@@ -3,3 +3,14 @@
 .venv/
 
 venv/
+
+# folder
+**/project_103/testignore/ 
+# /using_Python/project_103/testignore/ 
+# project_103/testignore/ why it did not worked
+
+
+# the slash at the end is imp, it tells that it is afolder and not a file
+
+# file
+/using_Python/project_103/testignoreE
