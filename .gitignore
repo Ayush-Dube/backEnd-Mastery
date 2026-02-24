@@ -6,6 +6,8 @@ venv/
 
 # folder
 **/project_103/testignore/ 
+# /testignore/ 
+# testignore/ 
 # /using_Python/project_103/testignore/ 
 # project_103/testignore/ why it did not worked
 
@@ -14,3 +16,6 @@ venv/
 
 # file
 /using_Python/project_103/testignoreE
+
+## new edition
+__pycache__/
