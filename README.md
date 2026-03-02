@@ -240,3 +240,95 @@ Then write pattern accordingly.
 Think in paths. Not guesses.
 
 
+# Flask Routes 
+
+```
+================= FLASK ROUTE + METHOD BEHAVIOR =================
+
+1️⃣ BASIC ROUTE
+
+@app.route('/login', methods=['GET','POST'])
+def login():
+    if request.method == 'POST':
+        return "Process Login"
+    return "Show Login Page"
+
+
+---------------------------------------------------------------
+
+2️⃣ FLASK INTERNAL FLOW
+
+Incoming Request
+        |
+        v
+Match URL?
+        |
+        v
+Check Method Allowed?
+        |
+   YES ---------------> Call Function
+   NO  ----------------> Return 405 (Method Not Allowed)
+
+
+---------------------------------------------------------------
+
+3️⃣ IMPORTANT RULES
+
+✔ methods=['GET','POST']
+   → Only these methods allowed
+
+✔ If request method NOT in list
+   → Function WILL NOT RUN
+   → Flask automatically returns 405
+
+✔ Inside function:
+   → request.method decides behavior
+
+
+---------------------------------------------------------------
+
+4️⃣ WHAT HAPPENS IN DIFFERENT CASES
+
+Case A:
+GET request
+→ Function runs
+→ POST condition false
+→ "Show Login Page"
+
+Case B:
+POST request
+→ Function runs
+→ POST condition true
+→ "Process Login"
+
+Case C:
+DELETE request (NOT in methods list)
+→ Function DOES NOT RUN
+→ Flask returns 405 error
+
+
+---------------------------------------------------------------
+
+5️⃣ CLEAN BEGINNER PATTERN
+
+@app.route('/login', methods=['GET','POST'])
+def login():
+
+    if request.method == 'GET':
+        return "Show Login Page"
+
+    elif request.method == 'POST':
+        return "Process Login"
+
+
+---------------------------------------------------------------
+
+🧠 CORE MENTAL MODEL
+
+Flask filters METHOD first.
+Your function handles LOGIC second.
+
+(URL + Method allowed?) → THEN function executes.
+
+===============================================================
+```
