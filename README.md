@@ -332,3 +332,63 @@ Your function handles LOGIC second.
 
 ===============================================================
 ```
+
+
+
+
+==================== PYTHON IMPORT + FLASK ====================
+
+Flask = ek module (toolbox)
+
+Toolbox ke andar:
+  - Flask (class)
+  - request (object)
+  - jsonify
+  - render_template
+  - etc.
+
+---------------------------------------------------------------
+
+1) import flask
+
+-> Pure toolbox ko laate ho
+-> Use karne ka tareeka:
+
+   flask.Flask
+   flask.request
+   flask.jsonify
+
+---------------------------------------------------------------
+
+2) from flask import Flask, request
+
+-> Sirf specific tools ko directly laate ho
+-> Use karne ka tareeka:
+
+   Flask
+   request
+
+(no flask. prefix needed)
+
+---------------------------------------------------------------
+
+IMPORTANT:
+
+Import karna = access lena
+Import karna ≠ object banana
+
+request object har HTTP call pe Flask khud banata hai.
+
+Tum import sirf reference laa rahe ho.
+
+---------------------------------------------------------------
+
+Mental Model:
+
+Browser → HTTP request
+         ↓
+Flask creates request object
+         ↓
+Tum usko access karte ho (via import)
+
+===============================================================
