@@ -32,7 +32,8 @@ def onePage():
 
 @app.route('/usr')
 def get_usr():
-    return render_template('loginPage.html')
+    return render_template('animate.html')
+    # return render_template('loginPage.html')
 
 @app.route('/usr',methods=["POST"])
 def showUsr():

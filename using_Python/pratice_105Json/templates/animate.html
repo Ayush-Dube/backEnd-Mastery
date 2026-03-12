@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Scroll</title>
+</head>
+<style>
+    .carousel{
+        border: 5px solid red;
+        margin: 100px auto;
+        width: 90%;
+        display: flex;
+        overflow-x: auto;
+    }
+
+
+    .card{
+        height: 5em;
+        padding: 1em;
+        background-color: cornflowerblue;
+        font-size: 3rem;
+        border-radius: .2em;
+        text-align: center;
+        align-content: center;
+    }
+    .group{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1em;
+        animation: spin 5s infinite linear;
+        padding-right: 1em;
+    }
+
+    @keyframes spin {
+        from {translate: 0;}
+        to{translate: -100%;}
+        
+    }
+</style>
+<body>
+        <div class="carousel">
+            <div class="group">
+                <div class="card">1</div>
+                <div class="card">2</div>
+                <div class="card">3</div>
+                <div class="card">4</div>
+                <div class="card">5</div>
+                <div class="card">6</div>
+            </div>
+
+             <div class="group" aria-hidden="">
+                <div class="card">1</div>
+                <div class="card">2</div>
+                <div class="card">3</div>
+                <div class="card">4</div>
+                <div class="card">5</div>
+                <div class="card">6</div>
+            </div>
+        </div>    
+    
+</body>
+</html>
