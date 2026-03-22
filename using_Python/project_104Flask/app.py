@@ -1,4 +1,5 @@
-from flask import Flask 
+from flask import Flask
+from flask import request
 from flask import render_template
 
 app = Flask(__name__)
@@ -12,9 +13,25 @@ def one():
     return "<marquee direction='up'><h1>Hi one</h1></ma rquee>"
 
 
+
 @app.route('/user/<username>')
 def x(username):
-    return f"🤖 : Hello  {username} ji!"
+    phoneN = request.args.get("p1")
+    balance = request.args.get("b1")
+    expDate = request.args.get("dd")
+    return f"🤖 : Hello  {username} ji , your phoneNumber : {phoneN} has Rs.{balance} expiring on {expDate} !"
+
+# ? --> statrst the quesry
+# & --? add multiple variables to the same query 
+# Additional Tip
+# If you want to handle cases where the query string is malformed, you can add validation or default values in your code:
+
+# @app.route('/user/<username>')
+# def x(username):
+#     phoneN = request.args.get("p1", "Unknown")
+#     balance = request.args.get("b1", "0")
+#     expDate = request.args.get("dd", "Unknown")
+#     return f"🤖 : Hello {username} ji , your phoneNumber : {phoneN} has Rs.{balance} expiring on {expDate} !"
 
 
 @app.route('/code')

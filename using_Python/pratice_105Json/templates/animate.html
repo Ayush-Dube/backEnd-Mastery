@@ -1,65 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=
-    , initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Scroll</title>
+
+    <style>
+        .carousel-container {
+            width: 100%;
+            overflow: hidden;
+            background-color: rgba(138, 43, 139, 0.929);
+            padding: 20px 0;
+            margin-top: 150px;
+        }
+
+        .card {
+            flex: 0 0 auto;
+            width: 200px;
+            height: 300px;
+            background: rgba(255, 206, 82, 0.851);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: rgb(47, 45, 41);
+            font-weight: bold;
+            border-radius: 20px;
+            margin: 0 10px;
+            font-size: xx-large;
+        }
+
+        .carousel-track {
+            display: flex;
+            width: max-content;
+            animation: scroll 8s linear infinite;
+        }
+
+        @keyframes scroll {
+            0% {
+                transform: translateX(0);
+            }
+
+            100% {
+                transform: translateX(-50%);
+            }
+
+        }
+        .carousel-container:hover .carousel-track{
+            animation-play-state: paused;
+        }
+    </style>
 </head>
-<style>
-    .carousel{
-        border: 5px solid red;
-        margin: 100px auto;
-        width: 90%;
-        display: flex;
-        overflow-x: auto;
-    }
 
-
-    .card{
-        height: 5em;
-        padding: 1em;
-        background-color: cornflowerblue;
-        font-size: 3rem;
-        border-radius: .2em;
-        text-align: center;
-        align-content: center;
-    }
-    .group{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 1em;
-        animation: spin 5s infinite linear;
-        padding-right: 1em;
-    }
-
-    @keyframes spin {
-        from {translate: 0;}
-        to{translate: -100%;}
-        
-    }
-</style>
 <body>
-        <div class="carousel">
-            <div class="group">
-                <div class="card">1</div>
-                <div class="card">2</div>
-                <div class="card">3</div>
-                <div class="card">4</div>
-                <div class="card">5</div>
-                <div class="card">6</div>
-            </div>
+    <div class="carousel-container">
+        <div class="carousel-track">
+            <div class="card">Item1</div>
+            <div class="card">Item2</div>
+            <div class="card">Item3</div>
+            <div class="card">Item4</div>
 
-             <div class="group" aria-hidden="">
-                <div class="card">1</div>
-                <div class="card">2</div>
-                <div class="card">3</div>
-                <div class="card">4</div>
-                <div class="card">5</div>
-                <div class="card">6</div>
-            </div>
-        </div>    
-    
+            <div class="card">Item1</div>
+            <div class="card">Item2</div>
+            <div class="card">Item3</div>
+            <div class="card">Item4</div>
+
+            <div class="card">Item1</div>
+            <div class="card">Item2</div>
+            <div class="card">Item3</div>
+            <div class="card">Item4</div>
+
+            <div class="card">Item1</div>
+            <div class="card">Item2</div>
+            <div class="card">Item3</div>
+            <div class="card">Item4</div>
+        </div>
+    </div>
+
+
+
 </body>
+
 </html>
