@@ -13,7 +13,7 @@ def one():
     return "<marquee direction='up'><h1>Hi one</h1></ma rquee>"
 
 
-
+#  QUERY PRAMETER ? -- & 
 @app.route('/user/<username>')
 def x(username):
     phoneN = request.args.get("p1")
@@ -52,6 +52,30 @@ def db_add(usritem):
     return users
 
 users=['Apple','banana','cherry']
+
+
+
+# FILL FORM
+@app.route("/register")
+def fill_upForm():
+    return render_template("register.html")
+   
+@app.route('/show_register',methods=["POST","GET"])
+def show_details():
+    if request.method == "POST":
+        usrname = request.form.get('naam')
+        usrcity = request.form.get('sahr')
+        usrmobile = request.form.get('mobileNO')
+
+        # return render_template("usrDetals.html")
+        return render_template("usrDetails.html", naam=usrname, sahr=usrcity, mobileNO=usrmobile)
+        
+
+
+
+    
+
+
 
 
 if __name__ == '__main__':

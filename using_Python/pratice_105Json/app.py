@@ -32,8 +32,8 @@ def onePage():
 
 @app.route('/usr')
 def get_usr():
-    return render_template('animate.html')
-    # return render_template('loginPage.html')
+    # return render_template('animate.html')
+    return render_template('loginPage.html')
 
 @app.route('/usr',methods=["POST"])
 def showUsr():
@@ -41,6 +41,33 @@ def showUsr():
     phNo = request.form.get("phoneNumber")
     return f"{usrname}'s phone number is {phNo}"
 
+
+# =====================DEMO OF JSON FILE==============================
+# READ & WRITE FUNCTIONS
+
+def read_data():
+    with open(FILE,"r") as f:
+        return json.load(f)
+
+def write_data(dataMaal):
+    with open (FILE,"w") as f:
+        json.dump(dataMaal,f) 
+# Observe it does not return , it performs a writing function , to see effect read the data(newly)
+
+# ROUTES
+@app.route("/data")
+def get_items():
+    substance = read_data()
+    # return substance
+    return substance["items"]
+    # return substance["items"][1]
+
+@app.route("/data/add/<item>")
+def add_show_items(item):
+    maal = read_data()
+    maal["items"].append(item)
+    write_data(maal)
+    return f"Ur item:{item} was succesfully added. To chk visit /data"
 
 
 
