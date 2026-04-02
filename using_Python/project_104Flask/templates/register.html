@@ -1,27 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register Here</title>
+    <style>
+        body{
+              display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* Full viewport height */
+            margin: 0;
+            background-color: #fcffe5; /
+        }
+    </style>
 </head>
-<body>
-    <form action="/show_register" method="POST">
 
-        <label for="x1">NAME 📛 :</label>
-        <input type="text" name="naam" id="x1">
-        <br>
-        
-        <label for="x2">City 🌆</label>
-        <input type="text" name="sahr" id="x2">
-        <br>
-        
-        <label for="x3">Phone 📞</label>
-        <input type="number" name="mobileNO" id="x3">
-        <br>
-        
+<body>
+    <form action="/show_register" method="POST" align="center">
+
+        <table border="1">
+            <tr>
+                <th>
+                    <label for="x1">NAME 📛 :</label>
+
+                </th>
+                <td>
+
+                    <input type="text" name="naam" id="x1" required>
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <th>
+                    <label for="x2">City 🌆</label>
+
+                </th>
+                <td>
+                    <input type="text" name="sahr" id="x2" required>
+
+                </td>
+
+            </tr>
+
+            <tr>
+                <th>
+                    <label for="x3">Phone 📞</label>
+
+                </th>
+                <td>
+                    <input type="text" name="mobileNO" id="x3" pattern="\d{10}" maxlength="10">
+
+                </td>
+
+            </tr>
+
+        </table>
+
+
         <!-- <input type="submit"> -->
         <button type="submit">Submit</button>
     </form>
 </body>
+
 </html>

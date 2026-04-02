@@ -68,7 +68,11 @@ def show_details():
         usrmobile = request.form.get('mobileNO')
 
         # return render_template("usrDetals.html")
+        print(request.form)#Debug purpose ,see output in terminal 
         return render_template("usrDetails.html", naam=usrname, sahr=usrcity, mobileNO=usrmobile)
+
+    else:
+        return "oye GET request kyu use kr rha!"
         
 
 
