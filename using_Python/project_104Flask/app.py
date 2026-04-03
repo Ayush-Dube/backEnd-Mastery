@@ -55,12 +55,12 @@ users=['Apple','banana','cherry']
 
 
 
-# FILL FORM
+#FILL FORM
 @app.route("/register")
 def fill_upForm():
     return render_template("register.html")
    
-@app.route('/show_register',methods=["POST","GET"])
+@app.route('/show_register',methods=["POST","GET","PUT"])
 def show_details():
     if request.method == "POST":
         usrname = request.form.get('naam')
@@ -71,9 +71,43 @@ def show_details():
         print(request.form)#Debug purpose ,see output in terminal 
         return render_template("usrDetails.html", naam=usrname, sahr=usrcity, mobileNO=usrmobile)
 
-    else:
+    elif request.method == "GET":
         return "oye GET request kyu use kr rha!"
-        
+
+    elif request.method == "PUT":
+        return "<h1>This is a PUT Request.<a href=\"/register\">🔙</a></h1>"
+
+
+    else:
+        print(request)
+
+        # Approach1
+
+        return "<h1 style=\"color:blue\">Your request is neither GET nor POST</h1>" 
+
+        # LETS MAKE A BUTTON in register page which will give PUT/DELETE METHOD using javascript     
+
+        # Approach 2 
+        # lets assume else part mei PUT method aaya, aa tou DELETE bhi sakta hai but then we have to 
+        # write a elif part request.method =='PUT'
+
+        # return redirect(url_for('put_reponse'))
+
+@app.route('/put_response')
+def put_respo():
+    return "second redirect url for approach \nPUT RESPONSE "
+
+
+@app.route('/boot')
+def show_boot():
+    return render_template('bootstrap.html')
+
+@app.route('/fromBoot', methods=["POST"])
+def boot_handler():
+    if request.method == "POST":
+        print(request.form)
+        return request.method
+
 
 
 

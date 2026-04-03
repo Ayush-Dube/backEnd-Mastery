@@ -6,13 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register Here</title>
     <style>
-        body{
-              display: flex;
+        body {
+            display: flex;
             justify-content: center;
             align-items: center;
-            height: 100vh; /* Full viewport height */
+            height: 100vh;
+            /* Full viewport height */
             margin: 0;
-            background-color: #fcffe5; /
+            background-color: #fcffe5;/
         }
     </style>
 </head>
@@ -64,6 +65,57 @@
         <!-- <input type="submit"> -->
         <button type="submit">Submit</button>
     </form>
+
+    <br>
+    <br>
+    <button id="putButton">PUT</button>
+
+    <!-- <form action="/show_register" method="DELETE">
+        <button type="submit" id="putButton">PUT</button>̥
+    </form> -->
+
+    <!-- The issue lies in how the browser handles HTTP methods like PUT or DELETE when submitting forms. 
+     By default, HTML forms only support GET and POST methods. When you try to use PUT or DELETE in a form, 
+     the browser will typically fall back to GET, which is why the elif part of your code is executed instead of the else part. -->
+
 </body>
+<script>
+
+    document.getElementById('putButton').addEventListener('click', function () {
+        fetch('/show_register', {
+            method: 'PUT'
+        })
+            .then(response => response.text())
+            .then(data => {
+                // alert(data); // Display server response
+                // return `${data}`;  // i was not able to show the data from the server on the webpage (barring alert)
+                // console.log(data )
+
+                // Approach 1
+                document.open();
+                document.write(data);
+                document.close();
+
+                // Approach 2
+
+
+
+            })
+            .catch(error => console.error('Error:', error));
+    });
+
+
+    // document.getElementById('putButton').addEventListener('click', function () {
+    //     fetch('/show_register', {
+    //         method: 'PUT'
+    //     })
+    //         .then(response => {
+    //             window.location.href = response.url;
+    //         })
+    //         .catch(error => {
+    //             console.error('Error:', error);
+    //         });
+    // });
+</script>
 
 </html>
