@@ -105,7 +105,7 @@ def show_boot():
 @app.route('/fromBoot', methods=["POST"])
 def boot_handler():
     if request.method == "POST":
-        print(request.form)
+        print(request.form.get('usrPassword'))
         return request.method
 
 
