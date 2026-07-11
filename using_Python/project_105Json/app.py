@@ -15,7 +15,8 @@ def addItem(item):
     print(request.method)
     print(request.headers)
     # print(request.json)
-    return f"ok G {item} /n {FILE}"
+    # return f"ok G {item}<br>{FILE}"
+    return jsonify("abcd")
 
 @app.route('/one')
 def onePage():
@@ -25,7 +26,10 @@ def onePage():
             
         # return jsonify(data["items"][2])
         # return jsonify(data)
-        return jsonify(data['items'])
+        # observe the difference bw data vs data["items"]
+        return jsonify(data["items"])
+        # return data
+
     except Exception as e:
         return f"Error reading file:{e}"
 

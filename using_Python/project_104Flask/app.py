@@ -1,6 +1,7 @@
 from flask import Flask
 from flask import request
 from flask import render_template
+from flask import jsonify
 
 app = Flask(__name__)
 
@@ -8,9 +9,14 @@ app = Flask(__name__)
 def index():
     return "<h1>Backend Beginnings!</h1> <br> <h2>Beautifully Built🌹</h2> <br> <a href='https://www.google.com'>abc</a>" 
 
-@app.route('/one')
-def one():
-    return "<marquee direction='up'><h1>Hi one</h1></ma rquee>"
+@app.route('/one/<userN>',methods=['GET'])
+def one(userN):
+    print(request.method)
+    # print(request.json) #this line gave me error
+    print(request.headers)
+
+    return "OK chk terminal"
+    # return "<marquee direction='up'><h1>Hi one</h1></ma rquee>"
 
 
 #  QUERY PRAMETER ? -- & 
@@ -33,6 +39,7 @@ def x(username):
 #     expDate = request.args.get("dd", "Unknown")
 #     return f"🤖 : Hello {username} ji , your phoneNumber : {phoneN} has Rs.{balance} expiring on {expDate} !"
 
+# demo of default values above.
 
 @app.route('/code')
 def code():
@@ -106,7 +113,8 @@ def show_boot():
 def boot_handler():
     if request.method == "POST":
         print(request.form.get('usrPassword'))
-        return request.method
+        data= request.form
+        return data
 
 
 
