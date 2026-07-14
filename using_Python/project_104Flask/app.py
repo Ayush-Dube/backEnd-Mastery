@@ -125,5 +125,5 @@ def boot_handler():
 
 
 if __name__ == '__main__':
-    app.run(host="0.0.0.0",debug=True)
+    app.run(host="0.0.0.0",debug=True,port=5500)
     # by default 5000 pr aa rha hoga, bcoz test server ki ek minimum requirment hoti hai .

@@ -1393,5 +1393,3740 @@
             "empty_weight_kg": 6500,
             "max_takeoff_weight_kg": 12000
         }
+    },
+    {
+        "id": 26,
+        "name": "B-52 Stratofortress",
+        "images": [
+            "images/aircraft/b52_stratofortress_1.webp",
+            "images/aircraft/b52_stratofortress_2.webp"
+        ],
+        "country_of_origin": {
+            "name": "United States",
+            "code": "US",
+            "flag": "flags/us.svg"
+        },
+        "category": "Military",
+        "type": "Bomber",
+        "status": "Active",
+        "first_flight": "1952-04-15",
+        "performance": {
+            "max_speed_kmh": 1046,
+            "range_km": 14162,
+            "service_ceiling_ft": 50000
+        },
+        "dimensions": {
+            "length_m": 48.5,
+            "wingspan_m": 56.4,
+            "height_m": 12.4
+        },
+        "operators": [
+            {
+                "name": "United States",
+                "code": "US",
+                "flag": "flags/us.svg"
+            }
+        ],
+        "weight": {
+            "empty_weight_kg": 83250,
+            "max_takeoff_weight_kg": 221353
+        }
+    },
+    {
+        "id": 27,
+        "name": "B-1 Lancer",
+        "images": [
+            "images/aircraft/b1_lancer_1.webp",
+            "images/aircraft/b1_lancer_2.webp"
+        ],
+        "country_of_origin": {
+            "name": "United States",
+            "code": "US",
+            "flag": "flags/us.svg"
+        },
+        "category": "Military",
+        "type": "Bomber",
+        "status": "Active",
+        "first_flight": "1974-12-23",
+        "performance": {
+            "max_speed_kmh": 1335,
+            "range_km": 11998,
+            "service_ceiling_ft": 60000
+        },
+        "dimensions": {
+            "length_m": 44.5,
+            "wingspan_m": 41.8,
+            "height_m": 10.4
+        },
+        "operators": [
+            {
+                "name": "United States",
+                "code": "US",
+                "flag": "flags/us.svg"
+            }
+        ],
+        "weight": {
+            "empty_weight_kg": 87090,
+            "max_takeoff_weight_kg": 216634
+        }
+    },
+    {
+        "id": 28,
+        "name": "Tu-95 Bear",
+        "images": [
+            "images/aircraft/tu95_bear_1.webp",
+            "images/aircraft/tu95_bear_2.webp"
+        ],
+        "country_of_origin": {
+            "name": "Soviet Union",
+            "code": "SU",
+            "flag": "flags/su.svg"
+        },
+        "category": "Military",
+        "type": "Bomber",
+        "status": "Active",
+        "first_flight": "1952-11-12",
+        "performance": {
+            "max_speed_kmh": 925,
+            "range_km": 15000,
+            "service_ceiling_ft": 45000
+        },
+        "dimensions": {
+            "length_m": 46.2,
+            "wingspan_m": 50.1,
+            "height_m": 12.12
+        },
+        "operators": [
+            {
+                "name": "Russia",
+                "code": "RU",
+                "flag": "flags/ru.svg"
+            }
+        ],
+        "weight": {
+            "empty_weight_kg": 90000,
+            "max_takeoff_weight_kg": 188000
+        }
+    },
+    {
+        "id": 29,
+        "name": "Tu-160 Blackjack",
+        "images": [
+            "images/aircraft/tu160_blackjack_1.webp",
+            "images/aircraft/tu160_blackjack_2.webp"
+        ],
+        "country_of_origin": {
+            "name": "Soviet Union",
+            "code": "SU",
+            "flag": "flags/su.svg"
+        },
+        "category": "Military",
+        "type": "Bomber",
+        "status": "Active",
+        "first_flight": "1981-12-18",
+        "performance": {
+            "max_speed_kmh": 2220,
+            "range_km": 12300,
+            "service_ceiling_ft": 52000
+        },
+        "dimensions": {
+            "length_m": 54.1,
+            "wingspan_m": 55.7,
+            "height_m": 13.1
+        },
+        "operators": [
+            {
+                "name": "Russia",
+                "code": "RU",
+                "flag": "flags/ru.svg"
+            }
+        ],
+        "weight": {
+            "empty_weight_kg": 110000,
+            "max_takeoff_weight_kg": 275000
+        }
+    },
+    {
+        "id": 30,
+        "name": "Tu-22M Backfire",
+        "images": [
+            "images/aircraft/tu22m_backfire_1.webp",
+            "images/aircraft/tu22m_backfire_2.webp"
+        ],
+        "country_of_origin": {
+            "name": "Soviet Union",
+            "code": "SU",
+            "flag": "flags/su.svg"
+        },
+        "category": "Military",
+        "type": "Bomber",
+        "status": "Active",
+        "first_flight": "1969-08-30",
+        "performance": {
+            "max_speed_kmh": 2300,
+            "range_km": 6800,
+            "service_ceiling_ft": 43635
+        },
+        "dimensions": {
+            "length_m": 42.46,
+            "wingspan_m": 34.28,
+            "height_m": 11.05
+        },
+        "operators": [
+            {
+                "name": "Russia",
+                "code": "RU",
+                "flag": "flags/ru.svg"
+            }
+        ],
+        "weight": {
+            "empty_weight_kg": 58000,
+            "max_takeoff_weight_kg": 126000
+        }
+    },
+    {
+        "id": 31,
+        "name": "Avro Vulcan",
+        "images": [
+            "images/aircraft/avro_vulcan_1.webp",
+            "images/aircraft/avro_vulcan_2.webp"
+        ],
+        "country_of_origin": {
+            "name": "United Kingdom",
+            "code": "GB",
+            "flag": "flags/gb.svg"
+        },
+        "category": "Military",
+        "type": "Bomber",
+        "status": "Retired",
+        "first_flight": "1952-08-30",
+        "performance": {
+            "max_speed_kmh": 1038,
+            "range_km": 7630,
+            "service_ceiling_ft": 55000
+        },
+        "dimensions": {
+            "length_m": 30.45,
+            "wingspan_m": 33.83,
+            "height_m": 8.28
+        },
+        "operators": [
+            {
+                "name": "United Kingdom",
+                "code": "GB",
+                "flag": "flags/gb.svg"
+            }
+        ],
+        "weight": {
+            "empty_weight_kg": 37500,
+            "max_takeoff_weight_kg": 93000
+        }
+    },
+    {
+        "id": 32,
+        "name": "C-130 Hercules",
+        "images": [
+            "images/aircraft/c130_hercules_1.webp",
+            "images/aircraft/c130_hercules_2.webp"
+        ],
+        "country_of_origin": {
+            "name": "United States",
+            "code": "US",
+            "flag": "flags/us.svg"
+        },
+        "category": "Military",
+        "type": "Transport",
+        "status": "Active",
+        "first_flight": "1954-08-23",
+        "performance": {
+            "max_speed_kmh": 590,
+            "range_km": 3800,
+            "service_ceiling_ft": 33000
+        },
+        "dimensions": {
+            "length_m": 29.79,
+            "wingspan_m": 40.41,
+            "height_m": 11.66
+        },
+        "operators": [
+            {
+                "name": "United States",
+                "code": "US",
+                "flag": "flags/us.svg"
+            },
+            {
+                "name": "Australia",
+                "code": "AU",
+                "flag": "flags/au.svg"
+            },
+            {
+                "name": "Brazil",
+                "code": "BR",
+                "flag": "flags/br.svg"
+            },
+            {
+                "name": "Egypt",
+                "code": "EG",
+                "flag": "flags/eg.svg"
+            },
+            {
+                "name": "India",
+                "code": "IN",
+                "flag": "flags/in.svg"
+            },
+            {
+                "name": "Japan",
+                "code": "JP",
+                "flag": "flags/jp.svg"
+            },
+            {
+                "name": "Pakistan",
+                "code": "PK",
+                "flag": "flags/pk.svg"
+            },
+            {
+                "name": "South Korea",
+                "code": "KR",
+                "flag": "flags/kr.svg"
+            },
+            {
+                "name": "Turkey",
+                "code": "TR",
+                "flag": "flags/tr.svg"
+            }
+        ],
+        "weight": {
+            "empty_weight_kg": 34686,
+            "max_takeoff_weight_kg": 70307
+        }
+    },
+    {
+        "id": 33,
+        "name": "C-17 Globemaster III",
+        "images": [
+            "images/aircraft/c17_globemaster_1.webp",
+            "images/aircraft/c17_globemaster_2.webp"
+        ],
+        "country_of_origin": {
+            "name": "United States",
+            "code": "US",
+            "flag": "flags/us.svg"
+        },
+        "category": "Military",
+        "type": "Transport",
+        "status": "Active",
+        "first_flight": "1991-09-15",
+        "performance": {
+            "max_speed_kmh": 830,
+            "range_km": 10390,
+            "service_ceiling_ft": 45000
+        },
+        "dimensions": {
+            "length_m": 53.0,
+            "wingspan_m": 51.75,
+            "height_m": 16.8
+        },
+        "operators": [
+            {
+                "name": "United States",
+                "code": "US",
+                "flag": "flags/us.svg"
+            },
+            {
+                "name": "Australia",
+                "code": "AU",
+                "flag": "flags/au.svg"
+            },
+            {
+                "name": "Canada",
+                "code": "CA",
+                "flag": "flags/ca.svg"
+            },
+            {
+                "name": "India",
+                "code": "IN",
+                "flag": "flags/in.svg"
+            },
+            {
+                "name": "Kuwait",
+                "code": "KW",
+                "flag": "flags/kw.svg"
+            },
+            {
+                "name": "Qatar",
+                "code": "QA",
+                "flag": "flags/qa.svg"
+            },
+            {
+                "name": "United Arab Emirates",
+                "code": "AE",
+                "flag": "flags/ae.svg"
+            },
+            {
+                "name": "United Kingdom",
+                "code": "GB",
+                "flag": "flags/gb.svg"
+            }
+        ],
+        "weight": {
+            "empty_weight_kg": 128000,
+            "max_takeoff_weight_kg": 265352
+        }
+    },
+    {
+        "id": 34,
+        "name": "C-5 Galaxy",
+        "images": [
+            "images/aircraft/c5_galaxy_1.webp",
+            "images/aircraft/c5_galaxy_2.webp"
+        ],
+        "country_of_origin": {
+            "name": "United States",
+            "code": "US",
+            "flag": "flags/us.svg"
+        },
+        "category": "Military",
+        "type": "Transport",
+        "status": "Active",
+        "first_flight": "1968-06-30",
+        "performance": {
+            "max_speed_kmh": 932,
+            "range_km": 8900,
+            "service_ceiling_ft": 35000
+        },
+        "dimensions": {
+            "length_m": 75.31,
+            "wingspan_m": 67.89,
+            "height_m": 19.84
+        },
+        "operators": [
+            {
+                "name": "United States",
+                "code": "US",
+                "flag": "flags/us.svg"
+            }
+        ],
+        "weight": {
+            "empty_weight_kg": 172371,
+            "max_takeoff_weight_kg": 381018
+        }
+    },
+    {
+        "id": 35,
+        "name": "A400M Atlas",
+        "images": [
+            "images/aircraft/a400m_atlas_1.webp",
+            "images/aircraft/a400m_atlas_2.webp"
+        ],
+        "country_of_origin": {
+            "name": "Multinational Europe",
+            "code": "EU",
+            "flag": "flags/eu.svg"
+        },
+        "category": "Military",
+        "type": "Transport",
+        "status": "Active",
+        "first_flight": "2009-12-11",
+        "performance": {
+            "max_speed_kmh": 882,
+            "range_km": 8700,
+            "service_ceiling_ft": 40000
+        },
+        "dimensions": {
+            "length_m": 45.1,
+            "wingspan_m": 42.4,
+            "height_m": 14.7
+        },
+        "operators": [
+            {
+                "name": "France",
+                "code": "FR",
+                "flag": "flags/fr.svg"
+            },
+            {
+                "name": "Germany",
+                "code": "DE",
+                "flag": "flags/de.svg"
+            },
+            {
+                "name": "Spain",
+                "code": "ES",
+                "flag": "flags/es.svg"
+            },
+            {
+                "name": "United Kingdom",
+                "code": "GB",
+                "flag": "flags/gb.svg"
+            },
+            {
+                "name": "Turkey",
+                "code": "TR",
+                "flag": "flags/tr.svg"
+            },
+            {
+                "name": "Belgium",
+                "code": "BE",
+                "flag": "flags/be.svg"
+            },
+            {
+                "name": "Luxembourg",
+                "code": "LU",
+                "flag": "flags/lu.svg"
+            },
+            {
+                "name": "Malaysia",
+                "code": "MY",
+                "flag": "flags/my.svg"
+            }
+        ],
+        "weight": {
+            "empty_weight_kg": 76500,
+            "max_takeoff_weight_kg": 141000
+        }
+    },
+    {
+        "id": 36,
+        "name": "An-124 Ruslan",
+        "images": [
+            "images/aircraft/an124_ruslan_1.webp",
+            "images/aircraft/an124_ruslan_2.webp"
+        ],
+        "country_of_origin": {
+            "name": "Soviet Union",
+            "code": "SU",
+            "flag": "flags/su.svg"
+        },
+        "category": "Military",
+        "type": "Transport",
+        "status": "Active",
+        "first_flight": "1982-12-24",
+        "performance": {
+            "max_speed_kmh": 865,
+            "range_km": 15700,
+            "service_ceiling_ft": 39000
+        },
+        "dimensions": {
+            "length_m": 69.1,
+            "wingspan_m": 73.3,
+            "height_m": 20.78
+        },
+        "operators": [
+            {
+                "name": "Russia",
+                "code": "RU",
+                "flag": "flags/ru.svg"
+            },
+            {
+                "name": "Ukraine",
+                "code": "UA",
+                "flag": "flags/ua.svg"
+            }
+        ],
+        "weight": {
+            "empty_weight_kg": 175000,
+            "max_takeoff_weight_kg": 402000
+        }
+    },
+    {
+        "id": 37,
+        "name": "Il-76",
+        "images": [
+            "images/aircraft/il76_1.webp",
+            "images/aircraft/il76_2.webp"
+        ],
+        "country_of_origin": {
+            "name": "Soviet Union",
+            "code": "SU",
+            "flag": "flags/su.svg"
+        },
+        "category": "Military",
+        "type": "Transport",
+        "status": "Active",
+        "first_flight": "1971-03-25",
+        "performance": {
+            "max_speed_kmh": 900,
+            "range_km": 9300,
+            "service_ceiling_ft": 43000
+        },
+        "dimensions": {
+            "length_m": 46.59,
+            "wingspan_m": 50.5,
+            "height_m": 14.76
+        },
+        "operators": [
+            {
+                "name": "Russia",
+                "code": "RU",
+                "flag": "flags/ru.svg"
+            },
+            {
+                "name": "India",
+                "code": "IN",
+                "flag": "flags/in.svg"
+            },
+            {
+                "name": "China",
+                "code": "CN",
+                "flag": "flags/cn.svg"
+            },
+            {
+                "name": "Algeria",
+                "code": "DZ",
+                "flag": "flags/dz.svg"
+            },
+            {
+                "name": "Iran",
+                "code": "IR",
+                "flag": "flags/ir.svg"
+            }
+        ],
+        "weight": {
+            "empty_weight_kg": 92000,
+            "max_takeoff_weight_kg": 190000
+        }
+    },
+    {
+        "id": 38,
+        "name": "Kawasaki C-2",
+        "images": [
+            "images/aircraft/kawasaki_c2_1.webp",
+            "images/aircraft/kawasaki_c2_2.webp"
+        ],
+        "country_of_origin": {
+            "name": "Japan",
+            "code": "JP",
+            "flag": "flags/jp.svg"
+        },
+        "category": "Military",
+        "type": "Transport",
+        "status": "Active",
+        "first_flight": "2010-01-26",
+        "performance": {
+            "max_speed_kmh": 920,
+            "range_km": 9800,
+            "service_ceiling_ft": 40000
+        },
+        "dimensions": {
+            "length_m": 43.9,
+            "wingspan_m": 44.4,
+            "height_m": 14.2
+        },
+        "operators": [
+            {
+                "name": "Japan",
+                "code": "JP",
+                "flag": "flags/jp.svg"
+            }
+        ],
+        "weight": {
+            "empty_weight_kg": 60800,
+            "max_takeoff_weight_kg": 141400
+        }
+    },
+    {
+        "id": 39,
+        "name": "C-390 Millennium",
+        "images": [
+            "images/aircraft/c390_millennium_1.webp",
+            "images/aircraft/c390_millennium_2.webp"
+        ],
+        "country_of_origin": {
+            "name": "Brazil",
+            "code": "BR",
+            "flag": "flags/br.svg"
+        },
+        "category": "Military",
+        "type": "Transport",
+        "status": "Active",
+        "first_flight": "2015-02-03",
+        "performance": {
+            "max_speed_kmh": 988,
+            "range_km": 8463,
+            "service_ceiling_ft": 36000
+        },
+        "dimensions": {
+            "length_m": 35.2,
+            "wingspan_m": 35.05,
+            "height_m": 11.84
+        },
+        "operators": [
+            {
+                "name": "Brazil",
+                "code": "BR",
+                "flag": "flags/br.svg"
+            },
+            {
+                "name": "Portugal",
+                "code": "PT",
+                "flag": "flags/pt.svg"
+            },
+            {
+                "name": "Hungary",
+                "code": "HU",
+                "flag": "flags/hu.svg"
+            }
+        ],
+        "weight": {
+            "empty_weight_kg": 51600,
+            "max_takeoff_weight_kg": 87000
+        }
+    },
+    {
+        "id": 40,
+        "name": "CH-47 Chinook",
+        "images": [
+            "images/aircraft/ch47_chinook_1.webp",
+            "images/aircraft/ch47_chinook_2.webp"
+        ],
+        "country_of_origin": {
+            "name": "United States",
+            "code": "US",
+            "flag": "flags/us.svg"
+        },
+        "category": "Military",
+        "type": "Helicopter",
+        "status": "Active",
+        "first_flight": "1961-09-21",
+        "performance": {
+            "max_speed_kmh": 302,
+            "range_km": 741,
+            "service_ceiling_ft": 20000
+        },
+        "dimensions": {
+            "length_m": 30.1,
+            "wingspan_m": 18.3,
+            "height_m": 5.7
+        },
+        "operators": [
+            {
+                "name": "United States",
+                "code": "US",
+                "flag": "flags/us.svg"
+            },
+            {
+                "name": "United Kingdom",
+                "code": "GB",
+                "flag": "flags/gb.svg"
+            },
+            {
+                "name": "India",
+                "code": "IN",
+                "flag": "flags/in.svg"
+            },
+            {
+                "name": "Australia",
+                "code": "AU",
+                "flag": "flags/au.svg"
+            },
+            {
+                "name": "Canada",
+                "code": "CA",
+                "flag": "flags/ca.svg"
+            },
+            {
+                "name": "Japan",
+                "code": "JP",
+                "flag": "flags/jp.svg"
+            },
+            {
+                "name": "Netherlands",
+                "code": "NL",
+                "flag": "flags/nl.svg"
+            }
+        ],
+        "weight": {
+            "empty_weight_kg": 11148,
+            "max_takeoff_weight_kg": 22680
+        }
+    },
+    {
+        "id": 41,
+        "name": "UH-60 Black Hawk",
+        "images": [
+            "images/aircraft/uh60_black_hawk_1.webp",
+            "images/aircraft/uh60_black_hawk_2.webp"
+        ],
+        "country_of_origin": {
+            "name": "United States",
+            "code": "US",
+            "flag": "flags/us.svg"
+        },
+        "category": "Military",
+        "type": "Helicopter",
+        "status": "Active",
+        "first_flight": "1974-10-17",
+        "performance": {
+            "max_speed_kmh": 294,
+            "range_km": 590,
+            "service_ceiling_ft": 19000
+        },
+        "dimensions": {
+            "length_m": 19.76,
+            "wingspan_m": 16.36,
+            "height_m": 5.13
+        },
+        "operators": [
+            {
+                "name": "United States",
+                "code": "US",
+                "flag": "flags/us.svg"
+            },
+            {
+                "name": "Australia",
+                "code": "AU",
+                "flag": "flags/au.svg"
+            },
+            {
+                "name": "Brazil",
+                "code": "BR",
+                "flag": "flags/br.svg"
+            },
+            {
+                "name": "Colombia",
+                "code": "CO",
+                "flag": "flags/co.svg"
+            },
+            {
+                "name": "Egypt",
+                "code": "EG",
+                "flag": "flags/eg.svg"
+            },
+            {
+                "name": "Israel",
+                "code": "IL",
+                "flag": "flags/il.svg"
+            },
+            {
+                "name": "Japan",
+                "code": "JP",
+                "flag": "flags/jp.svg"
+            },
+            {
+                "name": "South Korea",
+                "code": "KR",
+                "flag": "flags/kr.svg"
+            },
+            {
+                "name": "Turkey",
+                "code": "TR",
+                "flag": "flags/tr.svg"
+            }
+        ],
+        "weight": {
+            "empty_weight_kg": 4819,
+            "max_takeoff_weight_kg": 10660
+        }
+    },
+    {
+        "id": 42,
+        "name": "AH-64 Apache",
+        "images": [
+            "images/aircraft/ah64_apache_1.webp",
+            "images/aircraft/ah64_apache_2.webp"
+        ],
+        "country_of_origin": {
+            "name": "United States",
+            "code": "US",
+            "flag": "flags/us.svg"
+        },
+        "category": "Military",
+        "type": "Helicopter",
+        "status": "Active",
+        "first_flight": "1975-09-30",
+        "performance": {
+            "max_speed_kmh": 293,
+            "range_km": 476,
+            "service_ceiling_ft": 20000
+        },
+        "dimensions": {
+            "length_m": 17.73,
+            "wingspan_m": 14.63,
+            "height_m": 3.87
+        },
+        "operators": [
+            {
+                "name": "United States",
+                "code": "US",
+                "flag": "flags/us.svg"
+            },
+            {
+                "name": "United Kingdom",
+                "code": "GB",
+                "flag": "flags/gb.svg"
+            },
+            {
+                "name": "Egypt",
+                "code": "EG",
+                "flag": "flags/eg.svg"
+            },
+            {
+                "name": "Greece",
+                "code": "GR",
+                "flag": "flags/gr.svg"
+            },
+            {
+                "name": "India",
+                "code": "IN",
+                "flag": "flags/in.svg"
+            },
+            {
+                "name": "Israel",
+                "code": "IL",
+                "flag": "flags/il.svg"
+            },
+            {
+                "name": "Japan",
+                "code": "JP",
+                "flag": "flags/jp.svg"
+            },
+            {
+                "name": "Netherlands",
+                "code": "NL",
+                "flag": "flags/nl.svg"
+            },
+            {
+                "name": "Saudi Arabia",
+                "code": "SA",
+                "flag": "flags/sa.svg"
+            }
+        ],
+        "weight": {
+            "empty_weight_kg": 5165,
+            "max_takeoff_weight_kg": 10433
+        }
+    },
+    {
+        "id": 43,
+        "name": "Mi-24 Hind",
+        "images": [
+            "images/aircraft/mi24_hind_1.webp",
+            "images/aircraft/mi24_hind_2.webp"
+        ],
+        "country_of_origin": {
+            "name": "Soviet Union",
+            "code": "SU",
+            "flag": "flags/su.svg"
+        },
+        "category": "Military",
+        "type": "Helicopter",
+        "status": "Active",
+        "first_flight": "1969-09-19",
+        "performance": {
+            "max_speed_kmh": 335,
+            "range_km": 450,
+            "service_ceiling_ft": 14750
+        },
+        "dimensions": {
+            "length_m": 17.5,
+            "wingspan_m": 17.3,
+            "height_m": 6.5
+        },
+        "operators": [
+            {
+                "name": "Russia",
+                "code": "RU",
+                "flag": "flags/ru.svg"
+            },
+            {
+                "name": "Algeria",
+                "code": "DZ",
+                "flag": "flags/dz.svg"
+            },
+            {
+                "name": "Angola",
+                "code": "AO",
+                "flag": "flags/ao.svg"
+            },
+            {
+                "name": "India",
+                "code": "IN",
+                "flag": "flags/in.svg"
+            },
+            {
+                "name": "Poland",
+                "code": "PL",
+                "flag": "flags/pl.svg"
+            },
+            {
+                "name": "Ukraine",
+                "code": "UA",
+                "flag": "flags/ua.svg"
+            }
+        ],
+        "weight": {
+            "empty_weight_kg": 8500,
+            "max_takeoff_weight_kg": 12000
+        }
+    },
+    {
+        "id": 44,
+        "name": "Mi-26",
+        "images": [
+            "images/aircraft/mi26_1.webp",
+            "images/aircraft/mi26_2.webp"
+        ],
+        "country_of_origin": {
+            "name": "Soviet Union",
+            "code": "SU",
+            "flag": "flags/su.svg"
+        },
+        "category": "Military",
+        "type": "Helicopter",
+        "status": "Active",
+        "first_flight": "1977-12-14",
+        "performance": {
+            "max_speed_kmh": 295,
+            "range_km": 800,
+            "service_ceiling_ft": 15100
+        },
+        "dimensions": {
+            "length_m": 40.03,
+            "wingspan_m": 32.0,
+            "height_m": 8.15
+        },
+        "operators": [
+            {
+                "name": "Russia",
+                "code": "RU",
+                "flag": "flags/ru.svg"
+            },
+            {
+                "name": "Algeria",
+                "code": "DZ",
+                "flag": "flags/dz.svg"
+            },
+            {
+                "name": "India",
+                "code": "IN",
+                "flag": "flags/in.svg"
+            }
+        ],
+        "weight": {
+            "empty_weight_kg": 28200,
+            "max_takeoff_weight_kg": 56000
+        }
+    },
+    {
+        "id": 45,
+        "name": "HAL Dhruv",
+        "images": [
+            "images/aircraft/hal_dhruv_1.webp",
+            "images/aircraft/hal_dhruv_2.webp"
+        ],
+        "country_of_origin": {
+            "name": "India",
+            "code": "IN",
+            "flag": "flags/in.svg"
+        },
+        "category": "Military",
+        "type": "Helicopter",
+        "status": "Active",
+        "first_flight": "1992-08-20",
+        "performance": {
+            "max_speed_kmh": 291,
+            "range_km": 630,
+            "service_ceiling_ft": 20000
+        },
+        "dimensions": {
+            "length_m": 15.87,
+            "wingspan_m": 13.2,
+            "height_m": 4.98
+        },
+        "operators": [
+            {
+                "name": "India",
+                "code": "IN",
+                "flag": "flags/in.svg"
+            },
+            {
+                "name": "Nepal",
+                "code": "NP",
+                "flag": "flags/np.svg"
+            },
+            {
+                "name": "Mauritius",
+                "code": "MU",
+                "flag": "flags/mu.svg"
+            },
+            {
+                "name": "Maldives",
+                "code": "MV",
+                "flag": "flags/mv.svg"
+            }
+        ],
+        "weight": {
+            "empty_weight_kg": 2502,
+            "max_takeoff_weight_kg": 5500
+        }
+    },
+    {
+        "id": 46,
+        "name": "Ka-52 Alligator",
+        "images": [
+            "images/aircraft/ka52_alligator_1.webp",
+            "images/aircraft/ka52_alligator_2.webp"
+        ],
+        "country_of_origin": {
+            "name": "Russia",
+            "code": "RU",
+            "flag": "flags/ru.svg"
+        },
+        "category": "Military",
+        "type": "Helicopter",
+        "status": "Active",
+        "first_flight": "1997-06-25",
+        "performance": {
+            "max_speed_kmh": 300,
+            "range_km": 460,
+            "service_ceiling_ft": 18000
+        },
+        "dimensions": {
+            "length_m": 16.0,
+            "wingspan_m": 14.5,
+            "height_m": 4.93
+        },
+        "operators": [
+            {
+                "name": "Russia",
+                "code": "RU",
+                "flag": "flags/ru.svg"
+            },
+            {
+                "name": "Egypt",
+                "code": "EG",
+                "flag": "flags/eg.svg"
+            }
+        ],
+        "weight": {
+            "empty_weight_kg": 7700,
+            "max_takeoff_weight_kg": 10800
+        }
+    },
+    {
+        "id": 47,
+        "name": "Eurocopter Tiger",
+        "images": [
+            "images/aircraft/eurocopter_tiger_1.webp",
+            "images/aircraft/eurocopter_tiger_2.webp"
+        ],
+        "country_of_origin": {
+            "name": "France and Germany",
+            "code": "FR-DE",
+            "flag": "flags/fr-de.svg"
+        },
+        "category": "Military",
+        "type": "Helicopter",
+        "status": "Active",
+        "first_flight": "1991-04-27",
+        "performance": {
+            "max_speed_kmh": 315,
+            "range_km": 800,
+            "service_ceiling_ft": 13000
+        },
+        "dimensions": {
+            "length_m": 14.08,
+            "wingspan_m": 13.0,
+            "height_m": 3.83
+        },
+        "operators": [
+            {
+                "name": "France",
+                "code": "FR",
+                "flag": "flags/fr.svg"
+            },
+            {
+                "name": "Germany",
+                "code": "DE",
+                "flag": "flags/de.svg"
+            },
+            {
+                "name": "Spain",
+                "code": "ES",
+                "flag": "flags/es.svg"
+            },
+            {
+                "name": "Australia",
+                "code": "AU",
+                "flag": "flags/au.svg"
+            }
+        ],
+        "weight": {
+            "empty_weight_kg": 3060,
+            "max_takeoff_weight_kg": 6600
+        }
+    },
+    {
+        "id": 48,
+        "name": "MV-22 Osprey",
+        "images": [
+            "images/aircraft/mv22_osprey_1.webp",
+            "images/aircraft/mv22_osprey_2.webp"
+        ],
+        "country_of_origin": {
+            "name": "United States",
+            "code": "US",
+            "flag": "flags/us.svg"
+        },
+        "category": "Military",
+        "type": "Tiltrotor",
+        "status": "Active",
+        "first_flight": "1989-03-19",
+        "performance": {
+            "max_speed_kmh": 565,
+            "range_km": 1627,
+            "service_ceiling_ft": 25000
+        },
+        "dimensions": {
+            "length_m": 17.5,
+            "wingspan_m": 25.8,
+            "height_m": 6.73
+        },
+        "operators": [
+            {
+                "name": "United States",
+                "code": "US",
+                "flag": "flags/us.svg"
+            },
+            {
+                "name": "Japan",
+                "code": "JP",
+                "flag": "flags/jp.svg"
+            }
+        ],
+        "weight": {
+            "empty_weight_kg": 15032,
+            "max_takeoff_weight_kg": 27443
+        }
+    },
+    {
+        "id": 49,
+        "name": "MQ-9 Reaper",
+        "images": [
+            "images/aircraft/mq9_reaper_1.webp",
+            "images/aircraft/mq9_reaper_2.webp"
+        ],
+        "country_of_origin": {
+            "name": "United States",
+            "code": "US",
+            "flag": "flags/us.svg"
+        },
+        "category": "Military",
+        "type": "UAV",
+        "status": "Active",
+        "first_flight": "2001-02-02",
+        "performance": {
+            "max_speed_kmh": 482,
+            "range_km": 1850,
+            "service_ceiling_ft": 50000
+        },
+        "dimensions": {
+            "length_m": 11.0,
+            "wingspan_m": 20.1,
+            "height_m": 3.8
+        },
+        "operators": [
+            {
+                "name": "United States",
+                "code": "US",
+                "flag": "flags/us.svg"
+            },
+            {
+                "name": "France",
+                "code": "FR",
+                "flag": "flags/fr.svg"
+            },
+            {
+                "name": "Italy",
+                "code": "IT",
+                "flag": "flags/it.svg"
+            },
+            {
+                "name": "Spain",
+                "code": "ES",
+                "flag": "flags/es.svg"
+            },
+            {
+                "name": "United Kingdom",
+                "code": "GB",
+                "flag": "flags/gb.svg"
+            }
+        ],
+        "weight": {
+            "empty_weight_kg": 2223,
+            "max_takeoff_weight_kg": 4760
+        }
+    },
+    {
+        "id": 50,
+        "name": "RQ-4 Global Hawk",
+        "images": [
+            "images/aircraft/rq4_global_hawk_1.webp",
+            "images/aircraft/rq4_global_hawk_2.webp"
+        ],
+        "country_of_origin": {
+            "name": "United States",
+            "code": "US",
+            "flag": "flags/us.svg"
+        },
+        "category": "Military",
+        "type": "UAV",
+        "status": "Active",
+        "first_flight": "1998-02-28",
+        "performance": {
+            "max_speed_kmh": 629,
+            "range_km": 22780,
+            "service_ceiling_ft": 60000
+        },
+        "dimensions": {
+            "length_m": 14.5,
+            "wingspan_m": 39.9,
+            "height_m": 4.7
+        },
+        "operators": [
+            {
+                "name": "United States",
+                "code": "US",
+                "flag": "flags/us.svg"
+            },
+            {
+                "name": "Japan",
+                "code": "JP",
+                "flag": "flags/jp.svg"
+            },
+            {
+                "name": "South Korea",
+                "code": "KR",
+                "flag": "flags/kr.svg"
+            }
+        ],
+        "weight": {
+            "empty_weight_kg": 6781,
+            "max_takeoff_weight_kg": 14628
+        }
+    },
+    {
+        "id": 51,
+        "name": "Bayraktar TB2",
+        "images": [
+            "images/aircraft/bayraktar_tb2_1.webp",
+            "images/aircraft/bayraktar_tb2_2.webp"
+        ],
+        "country_of_origin": {
+            "name": "Turkey",
+            "code": "TR",
+            "flag": "flags/tr.svg"
+        },
+        "category": "Military",
+        "type": "UAV",
+        "status": "Active",
+        "first_flight": "2014-08-05",
+        "performance": {
+            "max_speed_kmh": 220,
+            "range_km": 300,
+            "service_ceiling_ft": 25000
+        },
+        "dimensions": {
+            "length_m": 6.5,
+            "wingspan_m": 12.0,
+            "height_m": 2.2
+        },
+        "operators": [
+            {
+                "name": "Turkey",
+                "code": "TR",
+                "flag": "flags/tr.svg"
+            },
+            {
+                "name": "Azerbaijan",
+                "code": "AZ",
+                "flag": "flags/az.svg"
+            },
+            {
+                "name": "Poland",
+                "code": "PL",
+                "flag": "flags/pl.svg"
+            },
+            {
+                "name": "Ukraine",
+                "code": "UA",
+                "flag": "flags/ua.svg"
+            },
+            {
+                "name": "Romania",
+                "code": "RO",
+                "flag": "flags/ro.svg"
+            }
+        ],
+        "weight": {
+            "empty_weight_kg": 500,
+            "max_takeoff_weight_kg": 700
+        }
+    },
+    {
+        "id": 52,
+        "name": "E-2 Hawkeye",
+        "images": [
+            "images/aircraft/e2_hawkeye_1.webp",
+            "images/aircraft/e2_hawkeye_2.webp"
+        ],
+        "country_of_origin": {
+            "name": "United States",
+            "code": "US",
+            "flag": "flags/us.svg"
+        },
+        "category": "Military",
+        "type": "AWACS",
+        "status": "Active",
+        "first_flight": "1960-10-21",
+        "performance": {
+            "max_speed_kmh": 648,
+            "range_km": 2708,
+            "service_ceiling_ft": 37000
+        },
+        "dimensions": {
+            "length_m": 17.6,
+            "wingspan_m": 24.56,
+            "height_m": 5.58
+        },
+        "operators": [
+            {
+                "name": "United States",
+                "code": "US",
+                "flag": "flags/us.svg"
+            },
+            {
+                "name": "France",
+                "code": "FR",
+                "flag": "flags/fr.svg"
+            },
+            {
+                "name": "Egypt",
+                "code": "EG",
+                "flag": "flags/eg.svg"
+            },
+            {
+                "name": "Japan",
+                "code": "JP",
+                "flag": "flags/jp.svg"
+            },
+            {
+                "name": "Taiwan",
+                "code": "TW",
+                "flag": "flags/tw.svg"
+            }
+        ],
+        "weight": {
+            "empty_weight_kg": 18090,
+            "max_takeoff_weight_kg": 26083
+        }
+    },
+    {
+        "id": 53,
+        "name": "E-3 Sentry",
+        "images": [
+            "images/aircraft/e3_sentry_1.webp",
+            "images/aircraft/e3_sentry_2.webp"
+        ],
+        "country_of_origin": {
+            "name": "United States",
+            "code": "US",
+            "flag": "flags/us.svg"
+        },
+        "category": "Military",
+        "type": "AWACS",
+        "status": "Active",
+        "first_flight": "1972-02-09",
+        "performance": {
+            "max_speed_kmh": 855,
+            "range_km": 7400,
+            "service_ceiling_ft": 29000
+        },
+        "dimensions": {
+            "length_m": 46.61,
+            "wingspan_m": 44.42,
+            "height_m": 12.73
+        },
+        "operators": [
+            {
+                "name": "United States",
+                "code": "US",
+                "flag": "flags/us.svg"
+            },
+            {
+                "name": "France",
+                "code": "FR",
+                "flag": "flags/fr.svg"
+            },
+            {
+                "name": "Saudi Arabia",
+                "code": "SA",
+                "flag": "flags/sa.svg"
+            },
+            {
+                "name": "NATO",
+                "code": "NATO",
+                "flag": "flags/nato.svg"
+            }
+        ],
+        "weight": {
+            "empty_weight_kg": 73480,
+            "max_takeoff_weight_kg": 156000
+        }
+    },
+    {
+        "id": 54,
+        "name": "E-7 Wedgetail",
+        "images": [
+            "images/aircraft/e7_wedgetail_1.webp",
+            "images/aircraft/e7_wedgetail_2.webp"
+        ],
+        "country_of_origin": {
+            "name": "United States",
+            "code": "US",
+            "flag": "flags/us.svg"
+        },
+        "category": "Military",
+        "type": "AWACS",
+        "status": "Active",
+        "first_flight": "2004-05-20",
+        "performance": {
+            "max_speed_kmh": 853,
+            "range_km": 6500,
+            "service_ceiling_ft": 41000
+        },
+        "dimensions": {
+            "length_m": 33.6,
+            "wingspan_m": 35.8,
+            "height_m": 12.5
+        },
+        "operators": [
+            {
+                "name": "Australia",
+                "code": "AU",
+                "flag": "flags/au.svg"
+            },
+            {
+                "name": "South Korea",
+                "code": "KR",
+                "flag": "flags/kr.svg"
+            },
+            {
+                "name": "Turkey",
+                "code": "TR",
+                "flag": "flags/tr.svg"
+            }
+        ],
+        "weight": {
+            "empty_weight_kg": 46400,
+            "max_takeoff_weight_kg": 77564
+        }
+    },
+    {
+        "id": 55,
+        "name": "Saab 340 AEW&C",
+        "images": [
+            "images/aircraft/saab340_aewc_1.webp",
+            "images/aircraft/saab340_aewc_2.webp"
+        ],
+        "country_of_origin": {
+            "name": "Sweden",
+            "code": "SE",
+            "flag": "flags/se.svg"
+        },
+        "category": "Military",
+        "type": "AWACS",
+        "status": "Active",
+        "first_flight": "1994-01-17",
+        "performance": {
+            "max_speed_kmh": 530,
+            "range_km": 3000,
+            "service_ceiling_ft": 25000
+        },
+        "dimensions": {
+            "length_m": 20.57,
+            "wingspan_m": 21.44,
+            "height_m": 6.97
+        },
+        "operators": [
+            {
+                "name": "Sweden",
+                "code": "SE",
+                "flag": "flags/se.svg"
+            },
+            {
+                "name": "Thailand",
+                "code": "TH",
+                "flag": "flags/th.svg"
+            }
+        ],
+        "weight": {
+            "empty_weight_kg": 10000,
+            "max_takeoff_weight_kg": 13155
+        }
+    },
+    {
+        "id": 56,
+        "name": "KC-135 Stratotanker",
+        "images": [
+            "images/aircraft/kc135_stratotanker_1.webp",
+            "images/aircraft/kc135_stratotanker_2.webp"
+        ],
+        "country_of_origin": {
+            "name": "United States",
+            "code": "US",
+            "flag": "flags/us.svg"
+        },
+        "category": "Military",
+        "type": "Tanker",
+        "status": "Active",
+        "first_flight": "1956-08-31",
+        "performance": {
+            "max_speed_kmh": 933,
+            "range_km": 17766,
+            "service_ceiling_ft": 50000
+        },
+        "dimensions": {
+            "length_m": 41.53,
+            "wingspan_m": 39.88,
+            "height_m": 12.7
+        },
+        "operators": [
+            {
+                "name": "United States",
+                "code": "US",
+                "flag": "flags/us.svg"
+            },
+            {
+                "name": "France",
+                "code": "FR",
+                "flag": "flags/fr.svg"
+            },
+            {
+                "name": "Turkey",
+                "code": "TR",
+                "flag": "flags/tr.svg"
+            },
+            {
+                "name": "Singapore",
+                "code": "SG",
+                "flag": "flags/sg.svg"
+            }
+        ],
+        "weight": {
+            "empty_weight_kg": 44663,
+            "max_takeoff_weight_kg": 146285
+        }
+    },
+    {
+        "id": 57,
+        "name": "A330 MRTT",
+        "images": [
+            "images/aircraft/a330_mrtt_1.webp",
+            "images/aircraft/a330_mrtt_2.webp"
+        ],
+        "country_of_origin": {
+            "name": "Multinational Europe",
+            "code": "EU",
+            "flag": "flags/eu.svg"
+        },
+        "category": "Military",
+        "type": "Tanker",
+        "status": "Active",
+        "first_flight": "2007-06-15",
+        "performance": {
+            "max_speed_kmh": 880,
+            "range_km": 14800,
+            "service_ceiling_ft": 41450
+        },
+        "dimensions": {
+            "length_m": 58.8,
+            "wingspan_m": 60.3,
+            "height_m": 17.4
+        },
+        "operators": [
+            {
+                "name": "Australia",
+                "code": "AU",
+                "flag": "flags/au.svg"
+            },
+            {
+                "name": "United Kingdom",
+                "code": "GB",
+                "flag": "flags/gb.svg"
+            },
+            {
+                "name": "France",
+                "code": "FR",
+                "flag": "flags/fr.svg"
+            },
+            {
+                "name": "Saudi Arabia",
+                "code": "SA",
+                "flag": "flags/sa.svg"
+            },
+            {
+                "name": "United Arab Emirates",
+                "code": "AE",
+                "flag": "flags/ae.svg"
+            },
+            {
+                "name": "Singapore",
+                "code": "SG",
+                "flag": "flags/sg.svg"
+            },
+            {
+                "name": "South Korea",
+                "code": "KR",
+                "flag": "flags/kr.svg"
+            }
+        ],
+        "weight": {
+            "empty_weight_kg": 125000,
+            "max_takeoff_weight_kg": 233000
+        }
+    },
+    {
+        "id": 58,
+        "name": "KC-46 Pegasus",
+        "images": [
+            "images/aircraft/kc46_pegasus_1.webp",
+            "images/aircraft/kc46_pegasus_2.webp"
+        ],
+        "country_of_origin": {
+            "name": "United States",
+            "code": "US",
+            "flag": "flags/us.svg"
+        },
+        "category": "Military",
+        "type": "Tanker",
+        "status": "Active",
+        "first_flight": "2015-09-25",
+        "performance": {
+            "max_speed_kmh": 1025,
+            "range_km": 11830,
+            "service_ceiling_ft": 43100
+        },
+        "dimensions": {
+            "length_m": 50.5,
+            "wingspan_m": 47.5,
+            "height_m": 16.1
+        },
+        "operators": [
+            {
+                "name": "United States",
+                "code": "US",
+                "flag": "flags/us.svg"
+            },
+            {
+                "name": "Japan",
+                "code": "JP",
+                "flag": "flags/jp.svg"
+            },
+            {
+                "name": "Israel",
+                "code": "IL",
+                "flag": "flags/il.svg"
+            }
+        ],
+        "weight": {
+            "empty_weight_kg": 82100,
+            "max_takeoff_weight_kg": 188241
+        }
+    },
+    {
+        "id": 59,
+        "name": "KC-10 Extender",
+        "images": [
+            "images/aircraft/kc10_extender_1.webp",
+            "images/aircraft/kc10_extender_2.webp"
+        ],
+        "country_of_origin": {
+            "name": "United States",
+            "code": "US",
+            "flag": "flags/us.svg"
+        },
+        "category": "Military",
+        "type": "Tanker",
+        "status": "Retired",
+        "first_flight": "1980-07-12",
+        "performance": {
+            "max_speed_kmh": 996,
+            "range_km": 18507,
+            "service_ceiling_ft": 42000
+        },
+        "dimensions": {
+            "length_m": 54.4,
+            "wingspan_m": 50.4,
+            "height_m": 17.7
+        },
+        "operators": [
+            {
+                "name": "United States",
+                "code": "US",
+                "flag": "flags/us.svg"
+            }
+        ],
+        "weight": {
+            "empty_weight_kg": 109328,
+            "max_takeoff_weight_kg": 267619
+        }
+    },
+    {
+        "id": 60,
+        "name": "BAE Hawk",
+        "images": [
+            "images/aircraft/bae_hawk_1.webp",
+            "images/aircraft/bae_hawk_2.webp"
+        ],
+        "country_of_origin": {
+            "name": "United Kingdom",
+            "code": "GB",
+            "flag": "flags/gb.svg"
+        },
+        "category": "Military",
+        "type": "Trainer",
+        "status": "Active",
+        "first_flight": "1974-08-21",
+        "performance": {
+            "max_speed_kmh": 1028,
+            "range_km": 2520,
+            "service_ceiling_ft": 44000
+        },
+        "dimensions": {
+            "length_m": 11.85,
+            "wingspan_m": 9.39,
+            "height_m": 4.0
+        },
+        "operators": [
+            {
+                "name": "United Kingdom",
+                "code": "GB",
+                "flag": "flags/gb.svg"
+            },
+            {
+                "name": "India",
+                "code": "IN",
+                "flag": "flags/in.svg"
+            },
+            {
+                "name": "Saudi Arabia",
+                "code": "SA",
+                "flag": "flags/sa.svg"
+            },
+            {
+                "name": "Finland",
+                "code": "FI",
+                "flag": "flags/fi.svg"
+            }
+        ],
+        "weight": {
+            "empty_weight_kg": 4480,
+            "max_takeoff_weight_kg": 9100
+        }
+    },
+    {
+        "id": 61,
+        "name": "L-39 Albatros",
+        "images": [
+            "images/aircraft/l39_albatros_1.webp",
+            "images/aircraft/l39_albatros_2.webp"
+        ],
+        "country_of_origin": {
+            "name": "Czechoslovakia",
+            "code": "CS",
+            "flag": "flags/cs.svg"
+        },
+        "category": "Military",
+        "type": "Trainer",
+        "status": "Active",
+        "first_flight": "1968-11-04",
+        "performance": {
+            "max_speed_kmh": 750,
+            "range_km": 1100,
+            "service_ceiling_ft": 36000
+        },
+        "dimensions": {
+            "length_m": 12.13,
+            "wingspan_m": 9.46,
+            "height_m": 4.77
+        },
+        "operators": [
+            {
+                "name": "Czech Republic",
+                "code": "CZ",
+                "flag": "flags/cz.svg"
+            },
+            {
+                "name": "Ukraine",
+                "code": "UA",
+                "flag": "flags/ua.svg"
+            },
+            {
+                "name": "Thailand",
+                "code": "TH",
+                "flag": "flags/th.svg"
+            },
+            {
+                "name": "Uganda",
+                "code": "UG",
+                "flag": "flags/ug.svg"
+            }
+        ],
+        "weight": {
+            "empty_weight_kg": 3455,
+            "max_takeoff_weight_kg": 4700
+        }
+    },
+    {
+        "id": 62,
+        "name": "PC-21",
+        "images": [
+            "images/aircraft/pc21_1.webp",
+            "images/aircraft/pc21_2.webp"
+        ],
+        "country_of_origin": {
+            "name": "Switzerland",
+            "code": "CH",
+            "flag": "flags/ch.svg"
+        },
+        "category": "Military",
+        "type": "Trainer",
+        "status": "Active",
+        "first_flight": "2002-07-01",
+        "performance": {
+            "max_speed_kmh": 685,
+            "range_km": 1333,
+            "service_ceiling_ft": 38000
+        },
+        "dimensions": {
+            "length_m": 11.22,
+            "wingspan_m": 9.11,
+            "height_m": 3.75
+        },
+        "operators": [
+            {
+                "name": "Switzerland",
+                "code": "CH",
+                "flag": "flags/ch.svg"
+            },
+            {
+                "name": "Singapore",
+                "code": "SG",
+                "flag": "flags/sg.svg"
+            },
+            {
+                "name": "United Arab Emirates",
+                "code": "AE",
+                "flag": "flags/ae.svg"
+            },
+            {
+                "name": "Australia",
+                "code": "AU",
+                "flag": "flags/au.svg"
+            },
+            {
+                "name": "France",
+                "code": "FR",
+                "flag": "flags/fr.svg"
+            }
+        ],
+        "weight": {
+            "empty_weight_kg": 2330,
+            "max_takeoff_weight_kg": 4250
+        }
+    },
+    {
+        "id": 63,
+        "name": "T-38 Talon",
+        "images": [
+            "images/aircraft/t38_talon_1.webp",
+            "images/aircraft/t38_talon_2.webp"
+        ],
+        "country_of_origin": {
+            "name": "United States",
+            "code": "US",
+            "flag": "flags/us.svg"
+        },
+        "category": "Military",
+        "type": "Trainer",
+        "status": "Active",
+        "first_flight": "1959-04-10",
+        "performance": {
+            "max_speed_kmh": 1381,
+            "range_km": 1835,
+            "service_ceiling_ft": 50000
+        },
+        "dimensions": {
+            "length_m": 14.14,
+            "wingspan_m": 7.7,
+            "height_m": 3.92
+        },
+        "operators": [
+            {
+                "name": "United States",
+                "code": "US",
+                "flag": "flags/us.svg"
+            },
+            {
+                "name": "Turkey",
+                "code": "TR",
+                "flag": "flags/tr.svg"
+            }
+        ],
+        "weight": {
+            "empty_weight_kg": 3270,
+            "max_takeoff_weight_kg": 5485
+        }
+    },
+    {
+        "id": 64,
+        "name": "M-346 Master",
+        "images": [
+            "images/aircraft/m346_master_1.webp",
+            "images/aircraft/m346_master_2.webp"
+        ],
+        "country_of_origin": {
+            "name": "Italy",
+            "code": "IT",
+            "flag": "flags/it.svg"
+        },
+        "category": "Military",
+        "type": "Trainer",
+        "status": "Active",
+        "first_flight": "2004-07-15",
+        "performance": {
+            "max_speed_kmh": 1090,
+            "range_km": 1980,
+            "service_ceiling_ft": 45000
+        },
+        "dimensions": {
+            "length_m": 11.49,
+            "wingspan_m": 9.72,
+            "height_m": 4.76
+        },
+        "operators": [
+            {
+                "name": "Italy",
+                "code": "IT",
+                "flag": "flags/it.svg"
+            },
+            {
+                "name": "Israel",
+                "code": "IL",
+                "flag": "flags/il.svg"
+            },
+            {
+                "name": "Singapore",
+                "code": "SG",
+                "flag": "flags/sg.svg"
+            },
+            {
+                "name": "Poland",
+                "code": "PL",
+                "flag": "flags/pl.svg"
+            }
+        ],
+        "weight": {
+            "empty_weight_kg": 4625,
+            "max_takeoff_weight_kg": 9500
+        }
+    },
+    {
+        "id": 65,
+        "name": "Alpha Jet",
+        "images": [
+            "images/aircraft/alpha_jet_1.webp",
+            "images/aircraft/alpha_jet_2.webp"
+        ],
+        "country_of_origin": {
+            "name": "France and Germany",
+            "code": "FR-DE",
+            "flag": "flags/fr-de.svg"
+        },
+        "category": "Military",
+        "type": "Trainer",
+        "status": "Active",
+        "first_flight": "1973-10-26",
+        "performance": {
+            "max_speed_kmh": 1000,
+            "range_km": 2940,
+            "service_ceiling_ft": 48000
+        },
+        "dimensions": {
+            "length_m": 13.23,
+            "wingspan_m": 9.11,
+            "height_m": 4.19
+        },
+        "operators": [
+            {
+                "name": "France",
+                "code": "FR",
+                "flag": "flags/fr.svg"
+            },
+            {
+                "name": "Egypt",
+                "code": "EG",
+                "flag": "flags/eg.svg"
+            },
+            {
+                "name": "Morocco",
+                "code": "MA",
+                "flag": "flags/ma.svg"
+            },
+            {
+                "name": "Nigeria",
+                "code": "NG",
+                "flag": "flags/ng.svg"
+            }
+        ],
+        "weight": {
+            "empty_weight_kg": 3515,
+            "max_takeoff_weight_kg": 8000
+        }
+    },
+    {
+        "id": 66,
+        "name": "T-6 Texan II",
+        "images": [
+            "images/aircraft/t6_texan_ii_1.webp",
+            "images/aircraft/t6_texan_ii_2.webp"
+        ],
+        "country_of_origin": {
+            "name": "United States",
+            "code": "US",
+            "flag": "flags/us.svg"
+        },
+        "category": "Military",
+        "type": "Trainer",
+        "status": "Active",
+        "first_flight": "1992-07-15",
+        "performance": {
+            "max_speed_kmh": 586,
+            "range_km": 1667,
+            "service_ceiling_ft": 31000
+        },
+        "dimensions": {
+            "length_m": 10.16,
+            "wingspan_m": 10.19,
+            "height_m": 3.25
+        },
+        "operators": [
+            {
+                "name": "United States",
+                "code": "US",
+                "flag": "flags/us.svg"
+            },
+            {
+                "name": "Canada",
+                "code": "CA",
+                "flag": "flags/ca.svg"
+            },
+            {
+                "name": "Greece",
+                "code": "GR",
+                "flag": "flags/gr.svg"
+            },
+            {
+                "name": "Israel",
+                "code": "IL",
+                "flag": "flags/il.svg"
+            },
+            {
+                "name": "Mexico",
+                "code": "MX",
+                "flag": "flags/mx.svg"
+            }
+        ],
+        "weight": {
+            "empty_weight_kg": 2135,
+            "max_takeoff_weight_kg": 2948
+        }
+    },
+    {
+        "id": 67,
+        "name": "T-45 Goshawk",
+        "images": [
+            "images/aircraft/t45_goshawk_1.webp",
+            "images/aircraft/t45_goshawk_2.webp"
+        ],
+        "country_of_origin": {
+            "name": "United States",
+            "code": "US",
+            "flag": "flags/us.svg"
+        },
+        "category": "Military",
+        "type": "Trainer",
+        "status": "Active",
+        "first_flight": "1988-04-16",
+        "performance": {
+            "max_speed_kmh": 1038,
+            "range_km": 1290,
+            "service_ceiling_ft": 42000
+        },
+        "dimensions": {
+            "length_m": 11.97,
+            "wingspan_m": 9.39,
+            "height_m": 4.08
+        },
+        "operators": [
+            {
+                "name": "United States",
+                "code": "US",
+                "flag": "flags/us.svg"
+            }
+        ],
+        "weight": {
+            "empty_weight_kg": 4460,
+            "max_takeoff_weight_kg": 6387
+        }
+    },
+    {
+        "id": 68,
+        "name": "MB-339",
+        "images": [
+            "images/aircraft/mb339_1.webp",
+            "images/aircraft/mb339_2.webp"
+        ],
+        "country_of_origin": {
+            "name": "Italy",
+            "code": "IT",
+            "flag": "flags/it.svg"
+        },
+        "category": "Military",
+        "type": "Trainer",
+        "status": "Active",
+        "first_flight": "1976-08-12",
+        "performance": {
+            "max_speed_kmh": 898,
+            "range_km": 1760,
+            "service_ceiling_ft": 46000
+        },
+        "dimensions": {
+            "length_m": 11.24,
+            "wingspan_m": 10.86,
+            "height_m": 3.99
+        },
+        "operators": [
+            {
+                "name": "Italy",
+                "code": "IT",
+                "flag": "flags/it.svg"
+            },
+            {
+                "name": "Eritrea",
+                "code": "ER",
+                "flag": "flags/er.svg"
+            }
+        ],
+        "weight": {
+            "empty_weight_kg": 3335,
+            "max_takeoff_weight_kg": 6350
+        }
+    },
+    {
+        "id": 69,
+        "name": "HJT-16 Kiran",
+        "images": [
+            "images/aircraft/hjt16_kiran_1.webp",
+            "images/aircraft/hjt16_kiran_2.webp"
+        ],
+        "country_of_origin": {
+            "name": "India",
+            "code": "IN",
+            "flag": "flags/in.svg"
+        },
+        "category": "Military",
+        "type": "Trainer",
+        "status": "Active",
+        "first_flight": "1964-09-04",
+        "performance": {
+            "max_speed_kmh": 695,
+            "range_km": 1500,
+            "service_ceiling_ft": 30000
+        },
+        "dimensions": {
+            "length_m": 10.6,
+            "wingspan_m": 10.7,
+            "height_m": 3.64
+        },
+        "operators": [
+            {
+                "name": "India",
+                "code": "IN",
+                "flag": "flags/in.svg"
+            }
+        ],
+        "weight": {
+            "empty_weight_kg": 2560,
+            "max_takeoff_weight_kg": 4235
+        }
+    },
+    {
+        "id": 70,
+        "name": "Jet Provost",
+        "images": [
+            "images/aircraft/jet_provost_1.webp",
+            "images/aircraft/jet_provost_2.webp"
+        ],
+        "country_of_origin": {
+            "name": "United Kingdom",
+            "code": "GB",
+            "flag": "flags/gb.svg"
+        },
+        "category": "Military",
+        "type": "Trainer",
+        "status": "Retired",
+        "first_flight": "1954-06-26",
+        "performance": {
+            "max_speed_kmh": 708,
+            "range_km": 1450,
+            "service_ceiling_ft": 37000
+        },
+        "dimensions": {
+            "length_m": 10.36,
+            "wingspan_m": 10.77,
+            "height_m": 3.1
+        },
+        "operators": [
+            {
+                "name": "United Kingdom",
+                "code": "GB",
+                "flag": "flags/gb.svg"
+            }
+        ],
+        "weight": {
+            "empty_weight_kg": 2222,
+            "max_takeoff_weight_kg": 4173
+        }
+    },
+    {
+        "id": 71,
+        "name": "Boeing 747-8",
+        "images": [
+            "images/aircraft/boeing747_8_1.webp",
+            "images/aircraft/boeing747_8_2.webp"
+        ],
+        "country_of_origin": {
+            "name": "United States",
+            "code": "US",
+            "flag": "flags/us.svg"
+        },
+        "category": "Civil",
+        "type": "Passenger Airliner",
+        "status": "Active",
+        "first_flight": "2011-03-20",
+        "performance": {
+            "max_speed_kmh": 1062,
+            "range_km": 14320,
+            "service_ceiling_ft": 43100
+        },
+        "dimensions": {
+            "length_m": 76.3,
+            "wingspan_m": 68.4,
+            "height_m": 19.4
+        },
+        "operators": [
+            {
+                "name": "Germany",
+                "code": "DE",
+                "flag": "flags/de.svg"
+            },
+            {
+                "name": "South Korea",
+                "code": "KR",
+                "flag": "flags/kr.svg"
+            },
+            {
+                "name": "China",
+                "code": "CN",
+                "flag": "flags/cn.svg"
+            }
+        ],
+        "weight": {
+            "empty_weight_kg": 220128,
+            "max_takeoff_weight_kg": 447696
+        }
+    },
+    {
+        "id": 72,
+        "name": "Boeing 777-300ER",
+        "images": [
+            "images/aircraft/boeing777_300er_1.webp",
+            "images/aircraft/boeing777_300er_2.webp"
+        ],
+        "country_of_origin": {
+            "name": "United States",
+            "code": "US",
+            "flag": "flags/us.svg"
+        },
+        "category": "Civil",
+        "type": "Passenger Airliner",
+        "status": "Active",
+        "first_flight": "2003-02-24",
+        "performance": {
+            "max_speed_kmh": 950,
+            "range_km": 13649,
+            "service_ceiling_ft": 43100
+        },
+        "dimensions": {
+            "length_m": 73.86,
+            "wingspan_m": 64.8,
+            "height_m": 18.5
+        },
+        "operators": [
+            {
+                "name": "United Arab Emirates",
+                "code": "AE",
+                "flag": "flags/ae.svg"
+            },
+            {
+                "name": "Qatar",
+                "code": "QA",
+                "flag": "flags/qa.svg"
+            },
+            {
+                "name": "France",
+                "code": "FR",
+                "flag": "flags/fr.svg"
+            },
+            {
+                "name": "United Kingdom",
+                "code": "GB",
+                "flag": "flags/gb.svg"
+            },
+            {
+                "name": "Singapore",
+                "code": "SG",
+                "flag": "flags/sg.svg"
+            }
+        ],
+        "weight": {
+            "empty_weight_kg": 167829,
+            "max_takeoff_weight_kg": 351534
+        }
+    },
+    {
+        "id": 73,
+        "name": "Boeing 787-9 Dreamliner",
+        "images": [
+            "images/aircraft/boeing787_9_1.webp",
+            "images/aircraft/boeing787_9_2.webp"
+        ],
+        "country_of_origin": {
+            "name": "United States",
+            "code": "US",
+            "flag": "flags/us.svg"
+        },
+        "category": "Civil",
+        "type": "Passenger Airliner",
+        "status": "Active",
+        "first_flight": "2013-09-17",
+        "performance": {
+            "max_speed_kmh": 954,
+            "range_km": 14010,
+            "service_ceiling_ft": 43000
+        },
+        "dimensions": {
+            "length_m": 62.81,
+            "wingspan_m": 60.12,
+            "height_m": 17.02
+        },
+        "operators": [
+            {
+                "name": "United States",
+                "code": "US",
+                "flag": "flags/us.svg"
+            },
+            {
+                "name": "United Kingdom",
+                "code": "GB",
+                "flag": "flags/gb.svg"
+            },
+            {
+                "name": "Japan",
+                "code": "JP",
+                "flag": "flags/jp.svg"
+            },
+            {
+                "name": "India",
+                "code": "IN",
+                "flag": "flags/in.svg"
+            },
+            {
+                "name": "Australia",
+                "code": "AU",
+                "flag": "flags/au.svg"
+            }
+        ],
+        "weight": {
+            "empty_weight_kg": 128850,
+            "max_takeoff_weight_kg": 254011
+        }
+    },
+    {
+        "id": 74,
+        "name": "Boeing 737 MAX 8",
+        "images": [
+            "images/aircraft/boeing737_max8_1.webp",
+            "images/aircraft/boeing737_max8_2.webp"
+        ],
+        "country_of_origin": {
+            "name": "United States",
+            "code": "US",
+            "flag": "flags/us.svg"
+        },
+        "category": "Civil",
+        "type": "Passenger Airliner",
+        "status": "Active",
+        "first_flight": "2016-01-29",
+        "performance": {
+            "max_speed_kmh": 876,
+            "range_km": 6570,
+            "service_ceiling_ft": 41000
+        },
+        "dimensions": {
+            "length_m": 39.52,
+            "wingspan_m": 35.92,
+            "height_m": 12.42
+        },
+        "operators": [
+            {
+                "name": "United States",
+                "code": "US",
+                "flag": "flags/us.svg"
+            },
+            {
+                "name": "Canada",
+                "code": "CA",
+                "flag": "flags/ca.svg"
+            },
+            {
+                "name": "India",
+                "code": "IN",
+                "flag": "flags/in.svg"
+            },
+            {
+                "name": "Ireland",
+                "code": "IE",
+                "flag": "flags/ie.svg"
+            },
+            {
+                "name": "Turkey",
+                "code": "TR",
+                "flag": "flags/tr.svg"
+            }
+        ],
+        "weight": {
+            "empty_weight_kg": 45070,
+            "max_takeoff_weight_kg": 82191
+        }
+    },
+    {
+        "id": 75,
+        "name": "Boeing 767-300ER",
+        "images": [
+            "images/aircraft/boeing767_300er_1.webp",
+            "images/aircraft/boeing767_300er_2.webp"
+        ],
+        "country_of_origin": {
+            "name": "United States",
+            "code": "US",
+            "flag": "flags/us.svg"
+        },
+        "category": "Civil",
+        "type": "Passenger Airliner",
+        "status": "Active",
+        "first_flight": "1986-12-09",
+        "performance": {
+            "max_speed_kmh": 913,
+            "range_km": 11070,
+            "service_ceiling_ft": 43100
+        },
+        "dimensions": {
+            "length_m": 54.94,
+            "wingspan_m": 47.57,
+            "height_m": 15.85
+        },
+        "operators": [
+            {
+                "name": "United States",
+                "code": "US",
+                "flag": "flags/us.svg"
+            },
+            {
+                "name": "Japan",
+                "code": "JP",
+                "flag": "flags/jp.svg"
+            },
+            {
+                "name": "Canada",
+                "code": "CA",
+                "flag": "flags/ca.svg"
+            },
+            {
+                "name": "Austria",
+                "code": "AT",
+                "flag": "flags/at.svg"
+            }
+        ],
+        "weight": {
+            "empty_weight_kg": 91380,
+            "max_takeoff_weight_kg": 186880
+        }
+    },
+    {
+        "id": 76,
+        "name": "Airbus A380-800",
+        "images": [
+            "images/aircraft/airbus_a380_800_1.webp",
+            "images/aircraft/airbus_a380_800_2.webp"
+        ],
+        "country_of_origin": {
+            "name": "Multinational Europe",
+            "code": "EU",
+            "flag": "flags/eu.svg"
+        },
+        "category": "Civil",
+        "type": "Passenger Airliner",
+        "status": "Active",
+        "first_flight": "2005-04-27",
+        "performance": {
+            "max_speed_kmh": 1020,
+            "range_km": 14800,
+            "service_ceiling_ft": 43000
+        },
+        "dimensions": {
+            "length_m": 72.72,
+            "wingspan_m": 79.75,
+            "height_m": 24.09
+        },
+        "operators": [
+            {
+                "name": "United Arab Emirates",
+                "code": "AE",
+                "flag": "flags/ae.svg"
+            },
+            {
+                "name": "United Kingdom",
+                "code": "GB",
+                "flag": "flags/gb.svg"
+            },
+            {
+                "name": "Germany",
+                "code": "DE",
+                "flag": "flags/de.svg"
+            },
+            {
+                "name": "Singapore",
+                "code": "SG",
+                "flag": "flags/sg.svg"
+            },
+            {
+                "name": "Australia",
+                "code": "AU",
+                "flag": "flags/au.svg"
+            }
+        ],
+        "weight": {
+            "empty_weight_kg": 277000,
+            "max_takeoff_weight_kg": 575000
+        }
+    },
+    {
+        "id": 77,
+        "name": "Airbus A350-900",
+        "images": [
+            "images/aircraft/airbus_a350_900_1.webp",
+            "images/aircraft/airbus_a350_900_2.webp"
+        ],
+        "country_of_origin": {
+            "name": "Multinational Europe",
+            "code": "EU",
+            "flag": "flags/eu.svg"
+        },
+        "category": "Civil",
+        "type": "Passenger Airliner",
+        "status": "Active",
+        "first_flight": "2013-06-14",
+        "performance": {
+            "max_speed_kmh": 945,
+            "range_km": 15750,
+            "service_ceiling_ft": 43100
+        },
+        "dimensions": {
+            "length_m": 66.8,
+            "wingspan_m": 64.75,
+            "height_m": 17.05
+        },
+        "operators": [
+            {
+                "name": "Qatar",
+                "code": "QA",
+                "flag": "flags/qa.svg"
+            },
+            {
+                "name": "Singapore",
+                "code": "SG",
+                "flag": "flags/sg.svg"
+            },
+            {
+                "name": "Germany",
+                "code": "DE",
+                "flag": "flags/de.svg"
+            },
+            {
+                "name": "France",
+                "code": "FR",
+                "flag": "flags/fr.svg"
+            },
+            {
+                "name": "India",
+                "code": "IN",
+                "flag": "flags/in.svg"
+            }
+        ],
+        "weight": {
+            "empty_weight_kg": 142400,
+            "max_takeoff_weight_kg": 283000
+        }
+    },
+    {
+        "id": 78,
+        "name": "Airbus A330-300",
+        "images": [
+            "images/aircraft/airbus_a330_300_1.webp",
+            "images/aircraft/airbus_a330_300_2.webp"
+        ],
+        "country_of_origin": {
+            "name": "Multinational Europe",
+            "code": "EU",
+            "flag": "flags/eu.svg"
+        },
+        "category": "Civil",
+        "type": "Passenger Airliner",
+        "status": "Active",
+        "first_flight": "1992-11-02",
+        "performance": {
+            "max_speed_kmh": 913,
+            "range_km": 11750,
+            "service_ceiling_ft": 41450
+        },
+        "dimensions": {
+            "length_m": 63.66,
+            "wingspan_m": 60.3,
+            "height_m": 16.79
+        },
+        "operators": [
+            {
+                "name": "Turkey",
+                "code": "TR",
+                "flag": "flags/tr.svg"
+            },
+            {
+                "name": "China",
+                "code": "CN",
+                "flag": "flags/cn.svg"
+            },
+            {
+                "name": "Germany",
+                "code": "DE",
+                "flag": "flags/de.svg"
+            },
+            {
+                "name": "South Korea",
+                "code": "KR",
+                "flag": "flags/kr.svg"
+            },
+            {
+                "name": "Switzerland",
+                "code": "CH",
+                "flag": "flags/ch.svg"
+            }
+        ],
+        "weight": {
+            "empty_weight_kg": 124500,
+            "max_takeoff_weight_kg": 242000
+        }
+    },
+    {
+        "id": 79,
+        "name": "Airbus A320neo",
+        "images": [
+            "images/aircraft/airbus_a320neo_1.webp",
+            "images/aircraft/airbus_a320neo_2.webp"
+        ],
+        "country_of_origin": {
+            "name": "Multinational Europe",
+            "code": "EU",
+            "flag": "flags/eu.svg"
+        },
+        "category": "Civil",
+        "type": "Passenger Airliner",
+        "status": "Active",
+        "first_flight": "2014-09-25",
+        "performance": {
+            "max_speed_kmh": 871,
+            "range_km": 6300,
+            "service_ceiling_ft": 39800
+        },
+        "dimensions": {
+            "length_m": 37.57,
+            "wingspan_m": 35.8,
+            "height_m": 11.76
+        },
+        "operators": [
+            {
+                "name": "India",
+                "code": "IN",
+                "flag": "flags/in.svg"
+            },
+            {
+                "name": "United States",
+                "code": "US",
+                "flag": "flags/us.svg"
+            },
+            {
+                "name": "China",
+                "code": "CN",
+                "flag": "flags/cn.svg"
+            },
+            {
+                "name": "Germany",
+                "code": "DE",
+                "flag": "flags/de.svg"
+            },
+            {
+                "name": "United Kingdom",
+                "code": "GB",
+                "flag": "flags/gb.svg"
+            }
+        ],
+        "weight": {
+            "empty_weight_kg": 44300,
+            "max_takeoff_weight_kg": 79000
+        }
+    },
+    {
+        "id": 80,
+        "name": "Airbus A220-300",
+        "images": [
+            "images/aircraft/airbus_a220_300_1.webp",
+            "images/aircraft/airbus_a220_300_2.webp"
+        ],
+        "country_of_origin": {
+            "name": "Canada",
+            "code": "CA",
+            "flag": "flags/ca.svg"
+        },
+        "category": "Civil",
+        "type": "Passenger Airliner",
+        "status": "Active",
+        "first_flight": "2015-02-27",
+        "performance": {
+            "max_speed_kmh": 871,
+            "range_km": 6700,
+            "service_ceiling_ft": 41000
+        },
+        "dimensions": {
+            "length_m": 38.7,
+            "wingspan_m": 35.1,
+            "height_m": 11.5
+        },
+        "operators": [
+            {
+                "name": "United States",
+                "code": "US",
+                "flag": "flags/us.svg"
+            },
+            {
+                "name": "Canada",
+                "code": "CA",
+                "flag": "flags/ca.svg"
+            },
+            {
+                "name": "Switzerland",
+                "code": "CH",
+                "flag": "flags/ch.svg"
+            },
+            {
+                "name": "France",
+                "code": "FR",
+                "flag": "flags/fr.svg"
+            }
+        ],
+        "weight": {
+            "empty_weight_kg": 37600,
+            "max_takeoff_weight_kg": 70900
+        }
+    },
+    {
+        "id": 81,
+        "name": "Concorde",
+        "images": [
+            "images/aircraft/concorde_1.webp",
+            "images/aircraft/concorde_2.webp"
+        ],
+        "country_of_origin": {
+            "name": "United Kingdom and France",
+            "code": "GB-FR",
+            "flag": "flags/gb-fr.svg"
+        },
+        "category": "Civil",
+        "type": "Passenger Airliner",
+        "status": "Retired",
+        "first_flight": "1969-03-02",
+        "performance": {
+            "max_speed_kmh": 2179,
+            "range_km": 7222,
+            "service_ceiling_ft": 60000
+        },
+        "dimensions": {
+            "length_m": 61.66,
+            "wingspan_m": 25.6,
+            "height_m": 12.2
+        },
+        "operators": [
+            {
+                "name": "United Kingdom",
+                "code": "GB",
+                "flag": "flags/gb.svg"
+            },
+            {
+                "name": "France",
+                "code": "FR",
+                "flag": "flags/fr.svg"
+            }
+        ],
+        "weight": {
+            "empty_weight_kg": 78700,
+            "max_takeoff_weight_kg": 185070
+        }
+    },
+    {
+        "id": 82,
+        "name": "Tupolev Tu-144",
+        "images": [
+            "images/aircraft/tupolev_tu144_1.webp",
+            "images/aircraft/tupolev_tu144_2.webp"
+        ],
+        "country_of_origin": {
+            "name": "Soviet Union",
+            "code": "SU",
+            "flag": "flags/su.svg"
+        },
+        "category": "Civil",
+        "type": "Passenger Airliner",
+        "status": "Retired",
+        "first_flight": "1968-12-31",
+        "performance": {
+            "max_speed_kmh": 2430,
+            "range_km": 6500,
+            "service_ceiling_ft": 66000
+        },
+        "dimensions": {
+            "length_m": 65.5,
+            "wingspan_m": 28.8,
+            "height_m": 12.5
+        },
+        "operators": [
+            {
+                "name": "Soviet Union",
+                "code": "SU",
+                "flag": "flags/su.svg"
+            }
+        ],
+        "weight": {
+            "empty_weight_kg": 99000,
+            "max_takeoff_weight_kg": 207000
+        }
+    },
+    {
+        "id": 83,
+        "name": "McDonnell Douglas DC-10-30",
+        "images": [
+            "images/aircraft/dc10_30_1.webp",
+            "images/aircraft/dc10_30_2.webp"
+        ],
+        "country_of_origin": {
+            "name": "United States",
+            "code": "US",
+            "flag": "flags/us.svg"
+        },
+        "category": "Civil",
+        "type": "Passenger Airliner",
+        "status": "Retired",
+        "first_flight": "1972-06-21",
+        "performance": {
+            "max_speed_kmh": 982,
+            "range_km": 10620,
+            "service_ceiling_ft": 42000
+        },
+        "dimensions": {
+            "length_m": 55.55,
+            "wingspan_m": 50.39,
+            "height_m": 17.7
+        },
+        "operators": [
+            {
+                "name": "United States",
+                "code": "US",
+                "flag": "flags/us.svg"
+            },
+            {
+                "name": "Netherlands",
+                "code": "NL",
+                "flag": "flags/nl.svg"
+            },
+            {
+                "name": "Switzerland",
+                "code": "CH",
+                "flag": "flags/ch.svg"
+            },
+            {
+                "name": "United Kingdom",
+                "code": "GB",
+                "flag": "flags/gb.svg"
+            }
+        ],
+        "weight": {
+            "empty_weight_kg": 120742,
+            "max_takeoff_weight_kg": 263085
+        }
+    },
+    {
+        "id": 84,
+        "name": "Lockheed L-1011-500 TriStar",
+        "images": [
+            "images/aircraft/l1011_500_tristar_1.webp",
+            "images/aircraft/l1011_500_tristar_2.webp"
+        ],
+        "country_of_origin": {
+            "name": "United States",
+            "code": "US",
+            "flag": "flags/us.svg"
+        },
+        "category": "Civil",
+        "type": "Passenger Airliner",
+        "status": "Retired",
+        "first_flight": "1978-10-16",
+        "performance": {
+            "max_speed_kmh": 970,
+            "range_km": 9900,
+            "service_ceiling_ft": 42000
+        },
+        "dimensions": {
+            "length_m": 50.05,
+            "wingspan_m": 50.09,
+            "height_m": 16.87
+        },
+        "operators": [
+            {
+                "name": "United Kingdom",
+                "code": "GB",
+                "flag": "flags/gb.svg"
+            },
+            {
+                "name": "United States",
+                "code": "US",
+                "flag": "flags/us.svg"
+            },
+            {
+                "name": "Canada",
+                "code": "CA",
+                "flag": "flags/ca.svg"
+            }
+        ],
+        "weight": {
+            "empty_weight_kg": 113800,
+            "max_takeoff_weight_kg": 231300
+        }
+    },
+    {
+        "id": 85,
+        "name": "COMAC C919",
+        "images": [
+            "images/aircraft/comac_c919_1.webp",
+            "images/aircraft/comac_c919_2.webp"
+        ],
+        "country_of_origin": {
+            "name": "China",
+            "code": "CN",
+            "flag": "flags/cn.svg"
+        },
+        "category": "Civil",
+        "type": "Passenger Airliner",
+        "status": "Active",
+        "first_flight": "2017-05-05",
+        "performance": {
+            "max_speed_kmh": 963,
+            "range_km": 5555,
+            "service_ceiling_ft": 39800
+        },
+        "dimensions": {
+            "length_m": 38.9,
+            "wingspan_m": 35.8,
+            "height_m": 11.95
+        },
+        "operators": [
+            {
+                "name": "China",
+                "code": "CN",
+                "flag": "flags/cn.svg"
+            }
+        ],
+        "weight": {
+            "empty_weight_kg": 42000,
+            "max_takeoff_weight_kg": 78900
+        }
+    },
+    {
+        "id": 86,
+        "name": "Boeing 747-8F",
+        "images": [
+            "images/aircraft/boeing747_8f_1.webp",
+            "images/aircraft/boeing747_8f_2.webp"
+        ],
+        "country_of_origin": {
+            "name": "United States",
+            "code": "US",
+            "flag": "flags/us.svg"
+        },
+        "category": "Civil",
+        "type": "Cargo",
+        "status": "Active",
+        "first_flight": "2010-02-08",
+        "performance": {
+            "max_speed_kmh": 988,
+            "range_km": 9200,
+            "service_ceiling_ft": 43100
+        },
+        "dimensions": {
+            "length_m": 76.3,
+            "wingspan_m": 68.4,
+            "height_m": 19.4
+        },
+        "operators": [
+            {
+                "name": "Luxembourg",
+                "code": "LU",
+                "flag": "flags/lu.svg"
+            },
+            {
+                "name": "United States",
+                "code": "US",
+                "flag": "flags/us.svg"
+            },
+            {
+                "name": "South Korea",
+                "code": "KR",
+                "flag": "flags/kr.svg"
+            }
+        ],
+        "weight": {
+            "empty_weight_kg": 197131,
+            "max_takeoff_weight_kg": 447700
+        }
+    },
+    {
+        "id": 87,
+        "name": "Antonov An-225 Mriya",
+        "images": [
+            "images/aircraft/antonov_an225_1.webp",
+            "images/aircraft/antonov_an225_2.webp"
+        ],
+        "country_of_origin": {
+            "name": "Soviet Union",
+            "code": "SU",
+            "flag": "flags/su.svg"
+        },
+        "category": "Civil",
+        "type": "Cargo",
+        "status": "Retired",
+        "first_flight": "1988-12-21",
+        "performance": {
+            "max_speed_kmh": 850,
+            "range_km": 15400,
+            "service_ceiling_ft": 36089
+        },
+        "dimensions": {
+            "length_m": 84.0,
+            "wingspan_m": 88.4,
+            "height_m": 18.1
+        },
+        "operators": [
+            {
+                "name": "Ukraine",
+                "code": "UA",
+                "flag": "flags/ua.svg"
+            }
+        ],
+        "weight": {
+            "empty_weight_kg": 285000,
+            "max_takeoff_weight_kg": 640000
+        }
+    },
+    {
+        "id": 88,
+        "name": "Airbus BelugaXL",
+        "images": [
+            "images/aircraft/airbus_belugaxl_1.webp",
+            "images/aircraft/airbus_belugaxl_2.webp"
+        ],
+        "country_of_origin": {
+            "name": "Multinational Europe",
+            "code": "EU",
+            "flag": "flags/eu.svg"
+        },
+        "category": "Civil",
+        "type": "Cargo",
+        "status": "Active",
+        "first_flight": "2018-07-19",
+        "performance": {
+            "max_speed_kmh": 864,
+            "range_km": 4074,
+            "service_ceiling_ft": 35000
+        },
+        "dimensions": {
+            "length_m": 63.1,
+            "wingspan_m": 60.3,
+            "height_m": 18.9
+        },
+        "operators": [
+            {
+                "name": "Multinational Europe",
+                "code": "EU",
+                "flag": "flags/eu.svg"
+            }
+        ],
+        "weight": {
+            "empty_weight_kg": 127500,
+            "max_takeoff_weight_kg": 227000
+        }
+    },
+    {
+        "id": 89,
+        "name": "Boeing 777F",
+        "images": [
+            "images/aircraft/boeing777f_1.webp",
+            "images/aircraft/boeing777f_2.webp"
+        ],
+        "country_of_origin": {
+            "name": "United States",
+            "code": "US",
+            "flag": "flags/us.svg"
+        },
+        "category": "Civil",
+        "type": "Cargo",
+        "status": "Active",
+        "first_flight": "2008-07-14",
+        "performance": {
+            "max_speed_kmh": 950,
+            "range_km": 9200,
+            "service_ceiling_ft": 43100
+        },
+        "dimensions": {
+            "length_m": 63.73,
+            "wingspan_m": 64.8,
+            "height_m": 18.6
+        },
+        "operators": [
+            {
+                "name": "United States",
+                "code": "US",
+                "flag": "flags/us.svg"
+            },
+            {
+                "name": "Germany",
+                "code": "DE",
+                "flag": "flags/de.svg"
+            },
+            {
+                "name": "Qatar",
+                "code": "QA",
+                "flag": "flags/qa.svg"
+            },
+            {
+                "name": "United Arab Emirates",
+                "code": "AE",
+                "flag": "flags/ae.svg"
+            }
+        ],
+        "weight": {
+            "empty_weight_kg": 144379,
+            "max_takeoff_weight_kg": 347814
+        }
+    },
+    {
+        "id": 90,
+        "name": "Cessna Citation Longitude",
+        "images": [
+            "images/aircraft/citation_longitude_1.webp",
+            "images/aircraft/citation_longitude_2.webp"
+        ],
+        "country_of_origin": {
+            "name": "United States",
+            "code": "US",
+            "flag": "flags/us.svg"
+        },
+        "category": "Civil",
+        "type": "Business Jet",
+        "status": "Active",
+        "first_flight": "2016-10-08",
+        "performance": {
+            "max_speed_kmh": 895,
+            "range_km": 6482,
+            "service_ceiling_ft": 45000
+        },
+        "dimensions": {
+            "length_m": 22.3,
+            "wingspan_m": 21.01,
+            "height_m": 5.92
+        },
+        "operators": [
+            {
+                "name": "United States",
+                "code": "US",
+                "flag": "flags/us.svg"
+            }
+        ],
+        "weight": {
+            "empty_weight_kg": 10430,
+            "max_takeoff_weight_kg": 17690
+        }
+    },
+    {
+        "id": 91,
+        "name": "Gulfstream G700",
+        "images": [
+            "images/aircraft/gulfstream_g700_1.webp",
+            "images/aircraft/gulfstream_g700_2.webp"
+        ],
+        "country_of_origin": {
+            "name": "United States",
+            "code": "US",
+            "flag": "flags/us.svg"
+        },
+        "category": "Civil",
+        "type": "Business Jet",
+        "status": "Active",
+        "first_flight": "2020-02-14",
+        "performance": {
+            "max_speed_kmh": 1142,
+            "range_km": 14353,
+            "service_ceiling_ft": 51000
+        },
+        "dimensions": {
+            "length_m": 33.48,
+            "wingspan_m": 31.39,
+            "height_m": 7.75
+        },
+        "operators": [
+            {
+                "name": "United States",
+                "code": "US",
+                "flag": "flags/us.svg"
+            }
+        ],
+        "weight": {
+            "empty_weight_kg": 25500,
+            "max_takeoff_weight_kg": 48807
+        }
+    },
+    {
+        "id": 92,
+        "name": "Bombardier Global 7500",
+        "images": [
+            "images/aircraft/global7500_1.webp",
+            "images/aircraft/global7500_2.webp"
+        ],
+        "country_of_origin": {
+            "name": "Canada",
+            "code": "CA",
+            "flag": "flags/ca.svg"
+        },
+        "category": "Civil",
+        "type": "Business Jet",
+        "status": "Active",
+        "first_flight": "2016-11-04",
+        "performance": {
+            "max_speed_kmh": 1152,
+            "range_km": 14260,
+            "service_ceiling_ft": 51000
+        },
+        "dimensions": {
+            "length_m": 33.88,
+            "wingspan_m": 31.7,
+            "height_m": 8.14
+        },
+        "operators": [
+            {
+                "name": "Canada",
+                "code": "CA",
+                "flag": "flags/ca.svg"
+            }
+        ],
+        "weight": {
+            "empty_weight_kg": 25400,
+            "max_takeoff_weight_kg": 52163
+        }
+    },
+    {
+        "id": 93,
+        "name": "Dassault Falcon 8X",
+        "images": [
+            "images/aircraft/falcon8x_1.webp",
+            "images/aircraft/falcon8x_2.webp"
+        ],
+        "country_of_origin": {
+            "name": "France",
+            "code": "FR",
+            "flag": "flags/fr.svg"
+        },
+        "category": "Civil",
+        "type": "Business Jet",
+        "status": "Active",
+        "first_flight": "2015-02-06",
+        "performance": {
+            "max_speed_kmh": 1104,
+            "range_km": 11945,
+            "service_ceiling_ft": 51000
+        },
+        "dimensions": {
+            "length_m": 24.46,
+            "wingspan_m": 26.29,
+            "height_m": 7.94
+        },
+        "operators": [
+            {
+                "name": "France",
+                "code": "FR",
+                "flag": "flags/fr.svg"
+            }
+        ],
+        "weight": {
+            "empty_weight_kg": 18824,
+            "max_takeoff_weight_kg": 33113
+        }
+    },
+    {
+        "id": 94,
+        "name": "Embraer Phenom 300E",
+        "images": [
+            "images/aircraft/phenom300e_1.webp",
+            "images/aircraft/phenom300e_2.webp"
+        ],
+        "country_of_origin": {
+            "name": "Brazil",
+            "code": "BR",
+            "flag": "flags/br.svg"
+        },
+        "category": "Civil",
+        "type": "Business Jet",
+        "status": "Active",
+        "first_flight": "2008-04-29",
+        "performance": {
+            "max_speed_kmh": 859,
+            "range_km": 3724,
+            "service_ceiling_ft": 45000
+        },
+        "dimensions": {
+            "length_m": 15.64,
+            "wingspan_m": 16.2,
+            "height_m": 5.1
+        },
+        "operators": [
+            {
+                "name": "Brazil",
+                "code": "BR",
+                "flag": "flags/br.svg"
+            }
+        ],
+        "weight": {
+            "empty_weight_kg": 5390,
+            "max_takeoff_weight_kg": 8150
+        }
+    },
+    {
+        "id": 95,
+        "name": "HondaJet Elite II",
+        "images": [
+            "images/aircraft/hondajet_elite_ii_1.webp",
+            "images/aircraft/hondajet_elite_ii_2.webp"
+        ],
+        "country_of_origin": {
+            "name": "United States",
+            "code": "US",
+            "flag": "flags/us.svg"
+        },
+        "category": "Civil",
+        "type": "Business Jet",
+        "status": "Active",
+        "first_flight": "2022-08-08",
+        "performance": {
+            "max_speed_kmh": 782,
+            "range_km": 2865,
+            "service_ceiling_ft": 43000
+        },
+        "dimensions": {
+            "length_m": 12.99,
+            "wingspan_m": 12.12,
+            "height_m": 4.54
+        },
+        "operators": [
+            {
+                "name": "United States",
+                "code": "US",
+                "flag": "flags/us.svg"
+            }
+        ],
+        "weight": {
+            "empty_weight_kg": 3573,
+            "max_takeoff_weight_kg": 4989
+        }
+    },
+    {
+        "id": 96,
+        "name": "ATR 72-600",
+        "images": [
+            "images/aircraft/atr72_600_1.webp",
+            "images/aircraft/atr72_600_2.webp"
+        ],
+        "country_of_origin": {
+            "name": "France and Italy",
+            "code": "FR-IT",
+            "flag": "flags/fr-it.svg"
+        },
+        "category": "Civil",
+        "type": "Regional Aircraft",
+        "status": "Active",
+        "first_flight": "2009-07-24",
+        "performance": {
+            "max_speed_kmh": 510,
+            "range_km": 1370,
+            "service_ceiling_ft": 25000
+        },
+        "dimensions": {
+            "length_m": 27.17,
+            "wingspan_m": 27.05,
+            "height_m": 7.65
+        },
+        "operators": [
+            {
+                "name": "India",
+                "code": "IN",
+                "flag": "flags/in.svg"
+            },
+            {
+                "name": "France",
+                "code": "FR",
+                "flag": "flags/fr.svg"
+            },
+            {
+                "name": "Indonesia",
+                "code": "ID",
+                "flag": "flags/id.svg"
+            },
+            {
+                "name": "Ireland",
+                "code": "IE",
+                "flag": "flags/ie.svg"
+            }
+        ],
+        "weight": {
+            "empty_weight_kg": 13010,
+            "max_takeoff_weight_kg": 23000
+        }
+    },
+    {
+        "id": 97,
+        "name": "Embraer E195-E2",
+        "images": [
+            "images/aircraft/embraer_e195_e2_1.webp",
+            "images/aircraft/embraer_e195_e2_2.webp"
+        ],
+        "country_of_origin": {
+            "name": "Brazil",
+            "code": "BR",
+            "flag": "flags/br.svg"
+        },
+        "category": "Civil",
+        "type": "Regional Aircraft",
+        "status": "Active",
+        "first_flight": "2017-03-29",
+        "performance": {
+            "max_speed_kmh": 870,
+            "range_km": 4815,
+            "service_ceiling_ft": 41000
+        },
+        "dimensions": {
+            "length_m": 41.5,
+            "wingspan_m": 35.1,
+            "height_m": 10.9
+        },
+        "operators": [
+            {
+                "name": "Brazil",
+                "code": "BR",
+                "flag": "flags/br.svg"
+            },
+            {
+                "name": "Netherlands",
+                "code": "NL",
+                "flag": "flags/nl.svg"
+            },
+            {
+                "name": "Canada",
+                "code": "CA",
+                "flag": "flags/ca.svg"
+            }
+        ],
+        "weight": {
+            "empty_weight_kg": 35100,
+            "max_takeoff_weight_kg": 62790
+        }
+    },
+    {
+        "id": 98,
+        "name": "Dash 8-400",
+        "images": [
+            "images/aircraft/dash8_400_1.webp",
+            "images/aircraft/dash8_400_2.webp"
+        ],
+        "country_of_origin": {
+            "name": "Canada",
+            "code": "CA",
+            "flag": "flags/ca.svg"
+        },
+        "category": "Civil",
+        "type": "Regional Aircraft",
+        "status": "Active",
+        "first_flight": "1998-01-31",
+        "performance": {
+            "max_speed_kmh": 667,
+            "range_km": 2040,
+            "service_ceiling_ft": 25000
+        },
+        "dimensions": {
+            "length_m": 32.84,
+            "wingspan_m": 28.42,
+            "height_m": 8.36
+        },
+        "operators": [
+            {
+                "name": "Canada",
+                "code": "CA",
+                "flag": "flags/ca.svg"
+            },
+            {
+                "name": "United Kingdom",
+                "code": "GB",
+                "flag": "flags/gb.svg"
+            },
+            {
+                "name": "India",
+                "code": "IN",
+                "flag": "flags/in.svg"
+            },
+            {
+                "name": "Japan",
+                "code": "JP",
+                "flag": "flags/jp.svg"
+            }
+        ],
+        "weight": {
+            "empty_weight_kg": 17185,
+            "max_takeoff_weight_kg": 29257
+        }
+    },
+    {
+        "id": 99,
+        "name": "ATR 42-600",
+        "images": [
+            "images/aircraft/atr42_600_1.webp",
+            "images/aircraft/atr42_600_2.webp"
+        ],
+        "country_of_origin": {
+            "name": "France and Italy",
+            "code": "FR-IT",
+            "flag": "flags/fr-it.svg"
+        },
+        "category": "Civil",
+        "type": "Regional Aircraft",
+        "status": "Active",
+        "first_flight": "2010-03-04",
+        "performance": {
+            "max_speed_kmh": 556,
+            "range_km": 1345,
+            "service_ceiling_ft": 25000
+        },
+        "dimensions": {
+            "length_m": 22.67,
+            "wingspan_m": 24.57,
+            "height_m": 7.59
+        },
+        "operators": [
+            {
+                "name": "France",
+                "code": "FR",
+                "flag": "flags/fr.svg"
+            },
+            {
+                "name": "India",
+                "code": "IN",
+                "flag": "flags/in.svg"
+            },
+            {
+                "name": "Japan",
+                "code": "JP",
+                "flag": "flags/jp.svg"
+            }
+        ],
+        "weight": {
+            "empty_weight_kg": 11250,
+            "max_takeoff_weight_kg": 18600
+        }
+    },
+    {
+        "id": 100,
+        "name": "Dornier 328-100",
+        "images": [
+            "images/aircraft/dornier328_100_1.webp",
+            "images/aircraft/dornier328_100_2.webp"
+        ],
+        "country_of_origin": {
+            "name": "Germany",
+            "code": "DE",
+            "flag": "flags/de.svg"
+        },
+        "category": "Civil",
+        "type": "Regional Aircraft",
+        "status": "Active",
+        "first_flight": "1991-12-06",
+        "performance": {
+            "max_speed_kmh": 620,
+            "range_km": 1850,
+            "service_ceiling_ft": 31000
+        },
+        "dimensions": {
+            "length_m": 21.23,
+            "wingspan_m": 20.98,
+            "height_m": 7.05
+        },
+        "operators": [
+            {
+                "name": "United States",
+                "code": "US",
+                "flag": "flags/us.svg"
+            },
+            {
+                "name": "Germany",
+                "code": "DE",
+                "flag": "flags/de.svg"
+            }
+        ],
+        "weight": {
+            "empty_weight_kg": 9020,
+            "max_takeoff_weight_kg": 13990
+        }
     }
 ]
