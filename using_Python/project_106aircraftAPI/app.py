@@ -1,5 +1,5 @@
 
-from flask import Flask, request,jsonify
+from flask import Flask, request,jsonify,render_template
 import json
 
 app = Flask(__name__)
@@ -26,6 +26,13 @@ def allAircgrafts():
         
 
     return jsonify(maal)
+
+@app.route("/query")
+def showQuery():
+    all_q = request.args 
+    
+    print(all_q)
+    return "see"
         
     
     
