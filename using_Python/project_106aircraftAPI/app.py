@@ -29,8 +29,7 @@ def allAircgrafts():
 
 @app.route("/query")
 def showQuery():
-    all_q = request.args 
-    
+    all_q = request.args    
     print(all_q)
     return "see"
         
