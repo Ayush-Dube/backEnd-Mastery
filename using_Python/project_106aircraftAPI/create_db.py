@@ -2,7 +2,6 @@ import sqlite3
 
 connection = sqlite3.connect("aircraft.db")
 
-# print("Database created successfully!")
 
 cursor = connection.cursor()
 
@@ -34,3 +33,5 @@ CREATE TABLE IF NOT EXISTS aircraft (
 
 connection.commit()
 connection.close()
+
+# print("Database created successfully!")
